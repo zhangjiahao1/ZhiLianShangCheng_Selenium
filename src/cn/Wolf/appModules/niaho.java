@@ -7,5 +7,6 @@ public class niaho {
 		//hahhahahha 的雙方各單方事故
 		System.out.println("wtf");
 		System.out.println("nihao");
+		//fhoklhjdf
 	}
 }
