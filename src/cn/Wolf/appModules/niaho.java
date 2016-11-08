@@ -6,5 +6,6 @@ public class niaho {
 		System.out.println("这是什么东西！！！！！");
 		//hahhahahha 的雙方各單方事故
 		System.out.println("wtf");
+		System.out.println("nihao");
 	}
 }
