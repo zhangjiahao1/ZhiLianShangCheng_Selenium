@@ -8,5 +8,6 @@ public class niaho {
 		System.out.println("wtf");
 		System.out.println("nihao");
 		//fhoklhjdf
+		//wocao wocao wocao 
 	}
 }
