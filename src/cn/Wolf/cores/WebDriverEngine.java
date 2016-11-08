@@ -19,7 +19,7 @@ public class WebDriverEngine {
 
 	
 	/**
-	 * ·µ»Ødriver,·½±ãÆäËûÀàµ÷ÓÃ
+	 * ï¿½ï¿½ï¿½ï¿½driver,ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 	 * @return
 	 */
 	public WebDriver getDriver(){
@@ -28,7 +28,7 @@ public class WebDriverEngine {
 	
 	
 	/**
-	 * ¸ù¾Ý¾ä±úÇÐ»»windows´°¿Ú
+	 * ï¿½ï¿½ï¿½Ý¾ï¿½ï¿½ï¿½Ð»ï¿½windowsï¿½ï¿½ï¿½ï¿½
 	 * @return
 	 */
 	public String[] getAllWindowTitles() {
@@ -48,7 +48,7 @@ public class WebDriverEngine {
 	
 	
 	/**
-	 * ¹¹Ôì·½·¨¡£½«ä¯ÀÀÆ÷µÄ´°¿Ú×î´ó»¯
+	 * ï¿½ï¿½ï¿½ì·½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 	 * @param driver
 	 */
 	public WebDriverEngine(WebDriver driver) {
@@ -59,7 +59,7 @@ public class WebDriverEngine {
 	
 
 	/**
-	 * ½øÈëFrame
+	 * ï¿½ï¿½ï¿½ï¿½Frame
 	 * @param frameID
 	 */
 	public void enterFrame(String frameID) {
@@ -70,7 +70,7 @@ public class WebDriverEngine {
 	
 	
 	/**
-	 * Àë¿ªFrame
+	 * ï¿½ë¿ªFrame
 	 */
 	public void leaveFrame() {
 		driver.switchTo().defaultContent();
@@ -79,7 +79,7 @@ public class WebDriverEngine {
 	
 	
 	/**
-	 * ´ò¿ªÒ»¸öÍøÖ·
+	 * ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½Ö·
 	 * @param url
 	 */
 	public void open(String url) {
@@ -96,7 +96,7 @@ public class WebDriverEngine {
 	
 	
 	/**
-	 * µÃµ½±êÌâ£¨Title£©
+	 * ï¿½Ãµï¿½ï¿½ï¿½ï¿½â£¨Titleï¿½ï¿½
 	 * @return
 	 */
 	public String getTitle() {
@@ -105,7 +105,7 @@ public class WebDriverEngine {
 	
 	
 	/**
-	 * ÔÝÍ£µÈ´ý
+	 * ï¿½ï¿½Í£ï¿½È´ï¿½
 	 * @param time
 	 */
 	private void pause(int time) {
@@ -121,7 +121,7 @@ public class WebDriverEngine {
 
 	
 	/**
-	 * µÃµ½Ò³ÃæµÄÄ³Ð©ÄÚÈÝ£¨³£³£ºÍAssertÒ»ÆðÓÃ£©
+	 * ï¿½Ãµï¿½Ò³ï¿½ï¿½ï¿½Ä³Ð©ï¿½ï¿½ï¿½Ý£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½AssertÒ»ï¿½ï¿½ï¿½Ã£ï¿½
 	 * @param pattern
 	 * @return
 	 */
@@ -137,7 +137,7 @@ public class WebDriverEngine {
 
 	
 	/**
-	 * Çå³ýÊäÈë¿òµÄÄÚÈÝ²¢ÊäÈëÖµ
+	 * ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ý²ï¿½ï¿½ï¿½ï¿½ï¿½Öµ
 	 * @param locator
 	 * @param value
 	 */
@@ -152,7 +152,7 @@ public class WebDriverEngine {
 
 	
 	/**
-	 * ÔÚÊäÈë¿òÖÐÊäÈëÖµ
+	 * ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Öµ
 	 * @param locator
 	 * @param value
 	 */
@@ -165,7 +165,7 @@ public class WebDriverEngine {
 
 	
 	/**
-	 * ÅÐ¶Ï½ÚµãÊÇ·ñÒÑ¾­±»Ñ¡ÖÐ£¬Èç¹ûÑ¡ÖÐ£¬·µ»ØTrue£¬·ñÔò·µ»ØFalse
+	 * ï¿½Ð¶Ï½Úµï¿½ï¿½Ç·ï¿½ï¿½Ñ¾ï¿½ï¿½ï¿½Ñ¡ï¿½Ð£ï¿½ï¿½ï¿½ï¿½Ñ¡ï¿½Ð£ï¿½ï¿½ï¿½ï¿½ï¿½Trueï¿½ï¿½ï¿½ï¿½ï¿½ò·µ»ï¿½False
 	 * @param locator
 	 * @return
 	 */
@@ -176,7 +176,7 @@ public class WebDriverEngine {
 
 	
 	/**
-	 * µã»÷²¢ÔÝÍ£2Ãë
+	 * ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í£2ï¿½ï¿½
 	 * @param locator
 	 */
 	public void click(String locator) {
@@ -205,7 +205,7 @@ public class WebDriverEngine {
 
 	
 	/**
-	 * Ë«»÷
+	 * Ë«ï¿½ï¿½
 	 * @param locator
 	 * @throws InterruptedException
 	 */
@@ -263,7 +263,7 @@ public class WebDriverEngine {
 	
 	
 	/**
-	 * »ñµÃURL
+	 * ï¿½ï¿½ï¿½URL
 	 * @return
 	 */
 	public String getUrl() {
@@ -272,7 +272,7 @@ public class WebDriverEngine {
 
 	
 	/**
-	 * ºóÍË
+	 * ï¿½ï¿½ï¿½ï¿½
 	 */
 	public void goBack() {
 		driver.navigate().back();
@@ -280,7 +280,7 @@ public class WebDriverEngine {
 	
 	
 	/**
-	 **Ç°½ø
+	 **Ç°ï¿½ï¿½
 	 */
 	public void goForward() {
 
@@ -289,7 +289,7 @@ public class WebDriverEngine {
 
 	
 	/**
-	 * ½øÈëÌáÐÑ¿ò
+	 * ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ñ¿ï¿½
 	 * @return
 	 */
 	public Alert getAlert() {
@@ -299,7 +299,7 @@ public class WebDriverEngine {
 
 	
 	/**
-	 * µÃµ½ÏÂÀ­ÁÐ±í
+	 * ï¿½Ãµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð±ï¿½
 	 * @param locator
 	 * @return
 	 */
@@ -310,7 +310,7 @@ public class WebDriverEngine {
 
 	
 	/**
-	 * Í¨¹ýValueÑ¡Ôñ
+	 * Í¨ï¿½ï¿½ValueÑ¡ï¿½ï¿½
 	 * @param locator
 	 * @param value
 	 */
@@ -321,7 +321,7 @@ public class WebDriverEngine {
 
 	
 	/**
-	 * Í¨¹ýVisibleTextÑ¡Ôñ
+	 * Í¨ï¿½ï¿½VisibleTextÑ¡ï¿½ï¿½
 	 * @param locator
 	 * @param value
 	 */
@@ -331,7 +331,7 @@ public class WebDriverEngine {
 
 	
 	/**
-	 * Í¨¹ýIndexÑ¡Ôñ
+	 * Í¨ï¿½ï¿½IndexÑ¡ï¿½ï¿½
 	 * @param locator
 	 * @param index
 	 */
@@ -351,7 +351,7 @@ public class WebDriverEngine {
 
 	
 	/**
-	 * ½ÓÊÜÌáÐÑ¿ò
+	 * ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ñ¿ï¿½
 	 */
 	public void alertAccept() {
 
@@ -365,7 +365,7 @@ public class WebDriverEngine {
 
 	
 	/**
-	 * Ö´ÐÐJSÓï¾ä
+	 * Ö´ï¿½ï¿½JSï¿½ï¿½ï¿½
 	 * @param js
 	 */
 	public void runJs(String js) {
@@ -375,7 +375,7 @@ public class WebDriverEngine {
 
 	
 	/**
-	 * °´ÏÂEnter¼ü
+	 * ï¿½ï¿½ï¿½ï¿½Enterï¿½ï¿½
 	 */
 	public void keyDown() {
 		Actions action = new Actions(driver);

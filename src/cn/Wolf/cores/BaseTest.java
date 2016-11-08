@@ -22,43 +22,43 @@ import cn.Wolf.utils.Log;
 
 public class BaseTest {
 
-	//±¾ÀàÊÇ»ùÀà£¬ÊÇÆäËû±»·â×°ÀàµÄÈë¿Ú
-	public  Checker check;//Ç°Ì¨¼ì²éµãÀàµÄÈë¿Ú
-	public Checker check2;//ºóÌ¨¼ì²éµãÀàµÄÈë¿Ú
-	public RobotExp robot;//°´¼üÀàµÄÈë¿Ú
-	private WebDriver driver;//ÉùÃ÷Ò»¸öWebDriver
-	public String driverType;//ÉùÃ÷Ò»¸ödriverÀàĞÍ£¬±¾ÀàµÄÁíÍâ×÷ÓÃÊÇ¼æÈİĞÔ²âÊÔ
-	public WebDriverEngine front;//ÒıÇæÀàµÄÈë¿Ú(Ç°Ì¨)
-	public WebDriverEngine2 back;//ÒıÇæÀàµÄÈë¿Ú(ºóÌ¨)
-	public WebDriverEngine pageObject;//Ò³ÃæÔªËØÀàµÄÈë¿Ú
+	//ï¿½ï¿½ï¿½ï¿½ï¿½Ç»ï¿½ï¿½à£¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½×°ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+	public  Checker check;//Ç°Ì¨ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+	public Checker check2;//ï¿½ï¿½Ì¨ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+	public RobotExp robot;//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+	private WebDriver driver;//ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½WebDriver
+	public String driverType;//ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½driverï¿½ï¿½ï¿½Í£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç¼ï¿½ï¿½ï¿½ï¿½Ô²ï¿½ï¿½ï¿½
+	public static WebDriverEngine front;//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½(Ç°Ì¨)
+	public static WebDriverEngine2 back;//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½(ï¿½ï¿½Ì¨)
+	public WebDriverEngine pageObject;//Ò³ï¿½ï¿½Ôªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 	public static Properties conf = null;
 	public final static String DATA_ROOT = "data";
 	public final static String CONF_PATH = "conf/config.properties";
 	
 	/**
-	 * ä¯ÀÀÆ÷¼æÈİĞÔ
+	 * ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 	 * @param driverType
 	 * @return
 	 */
 	private WebDriver newWebDriver(String driverType) {
 		WebDriver driver = null;
 		if (driverType.equalsIgnoreCase("firefox")) {
-			String firefox_path = getCfgProperty("firefox_path");//Èç¹û»ğºüÃ»ÓĞÔÚÄ¬ÈÏÂ·¾¶£¬ÄÇ¾ÍÔÚÕâÀïĞ´ÉÏ
+			String firefox_path = getCfgProperty("firefox_path");//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ã»ï¿½ï¿½ï¿½ï¿½Ä¬ï¿½ï¿½Â·ï¿½ï¿½ï¿½ï¿½ï¿½Ç¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ğ´ï¿½ï¿½
 			System.setProperty("webdriver.firefox.bin", firefox_path);
 			driver = new FirefoxDriver();
-			Log.info("Using Firefox");//Ê¹ÓÃµÄÊÇ»ğºüä¯ÀÀÆ÷
+			Log.info("Using Firefox");//Ê¹ï¿½Ãµï¿½ï¿½Ç»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 		}else if (driverType.equalsIgnoreCase("ie")) {
 			String ie_path = getCfgProperty("chrome_path");
 			System.setProperty("webdriver.ie.driver",ie_path);
 			DesiredCapabilities ieCapabilities = DesiredCapabilities.internetExplorer();
 			ieCapabilities.setCapability(InternetExplorerDriver.INTRODUCE_FLAKINESS_BY_IGNORING_SECURITY_DOMAINS,true);
 			driver = new InternetExplorerDriver(ieCapabilities);
-			Log.info("Using IE");//Ê¹ÓÃµÄÊÇIEä¯ÀÀÆ÷
+			Log.info("Using IE");//Ê¹ï¿½Ãµï¿½ï¿½ï¿½IEï¿½ï¿½ï¿½ï¿½ï¿½
 		}else if (driverType.equalsIgnoreCase("chrome")) {
 			String chrome_path = getCfgProperty("chrome_path");
 			System.setProperty("webdriver.chrome.driver",chrome_path);
 			driver = new ChromeDriver();
-			Log.info("Using Chrome");//Ê¹ÓÃµÄÊÇ¹È¸èä¯ÀÀÆ÷
+			Log.info("Using Chrome");//Ê¹ï¿½Ãµï¿½ï¿½Ç¹È¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 		}else{
 			return null;
 	}
@@ -89,7 +89,7 @@ public class BaseTest {
 
 	
 	/**
-	 * ÈÕÆÚº¯Êı
+	 * ï¿½ï¿½ï¿½Úºï¿½ï¿½ï¿½
 	 * @return
 	 */
 	public String getDate(){
@@ -100,7 +100,7 @@ public class BaseTest {
 	
 	
 	/**
-	 * ½ØÆÁ
+	 * ï¿½ï¿½ï¿½ï¿½
 	 */
 	public void screenShot() {
 

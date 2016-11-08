@@ -1,0 +1,411 @@
+[INFO ] 2016-11-08 12:46:28,677 cn.Wolf.utils.Log - Using Firefox
+[INFO ] 2016-11-08 12:46:28,681 cn.Wolf.utils.Log - firefox
+[INFO ] 2016-11-08 12:46:33,503 cn.Wolf.utils.Log - Opened url http://localhost:8032/zl_shop/index.php
+[INFO ] 2016-11-08 12:46:44,862 cn.Wolf.utils.Log - org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"class name","selector":"add-car"}
+Command duration or timeout: 21 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'zjh', ip: '10.222.244.14', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 73e4dd23-b18f-4ade-8486-4d28a1eb0fbf
+*** Element info: {Using=class name, value=add-car}
+[INFO ] 2016-11-08 12:46:45,615 cn.Wolf.utils.Log - Quitted Browser
+[INFO ] 2016-11-08 12:49:59,450 cn.Wolf.utils.Log - Using Firefox
+[INFO ] 2016-11-08 12:49:59,455 cn.Wolf.utils.Log - firefox
+[INFO ] 2016-11-08 12:50:03,158 cn.Wolf.utils.Log - Opened url http://localhost:8032/zl_shop/index.php
+[INFO ] 2016-11-08 12:50:14,220 cn.Wolf.utils.Log - org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"class name","selector":"add-car"}
+Command duration or timeout: 20 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'zjh', ip: '10.222.244.14', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: b7d9d93f-e3dc-4bfe-b8cd-e07e96824d9b
+*** Element info: {Using=class name, value=add-car}
+[INFO ] 2016-11-08 12:50:14,925 cn.Wolf.utils.Log - Quitted Browser
+[INFO ] 2016-11-08 12:53:08,448 cn.Wolf.utils.Log - Using Firefox
+[INFO ] 2016-11-08 12:53:08,452 cn.Wolf.utils.Log - firefox
+[INFO ] 2016-11-08 12:53:12,218 cn.Wolf.utils.Log - Opened url http://localhost:8032/zl_shop/admin.php/Login/
+[INFO ] 2016-11-08 12:53:14,238 cn.Wolf.utils.Log - Opened url http://localhost:8032/zl_shop/index.php
+[INFO ] 2016-11-08 12:53:15,245 cn.Wolf.utils.Log - org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'zjh', ip: '10.222.244.14', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: driver.version: RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 75b35307-f8bc-470d-8352-a31e7d45b423
+[INFO ] 2016-11-08 12:53:16,252 cn.Wolf.utils.Log - org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'zjh', ip: '10.222.244.14', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: driver.version: RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 75b35307-f8bc-470d-8352-a31e7d45b423
+[INFO ] 2016-11-08 12:53:17,258 cn.Wolf.utils.Log - org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'zjh', ip: '10.222.244.14', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: driver.version: RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 75b35307-f8bc-470d-8352-a31e7d45b423
+[INFO ] 2016-11-08 12:53:18,263 cn.Wolf.utils.Log - org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'zjh', ip: '10.222.244.14', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: driver.version: RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 75b35307-f8bc-470d-8352-a31e7d45b423
+[INFO ] 2016-11-08 12:53:19,279 cn.Wolf.utils.Log - org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'zjh', ip: '10.222.244.14', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: driver.version: RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 75b35307-f8bc-470d-8352-a31e7d45b423
+[INFO ] 2016-11-08 12:53:23,288 cn.Wolf.utils.Log - org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'zjh', ip: '10.222.244.14', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: driver.version: RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 75b35307-f8bc-470d-8352-a31e7d45b423
+[INFO ] 2016-11-08 12:53:45,669 cn.Wolf.utils.Log - Using Firefox
+[INFO ] 2016-11-08 12:53:45,674 cn.Wolf.utils.Log - firefox
+[INFO ] 2016-11-08 12:53:49,669 cn.Wolf.utils.Log - Opened url http://localhost:8032/zl_shop/index.php
+[INFO ] 2016-11-08 12:54:03,460 cn.Wolf.utils.Log - org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"class name","selector":"add-car"}
+Command duration or timeout: 28 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'zjh', ip: '10.222.244.14', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: f7c0f2bc-1608-47f2-983d-eeaf752c3a30
+*** Element info: {Using=class name, value=add-car}
+[INFO ] 2016-11-08 12:54:04,236 cn.Wolf.utils.Log - Quitted Browser
+[INFO ] 2016-11-08 12:56:47,393 cn.Wolf.utils.Log - Using Firefox
+[INFO ] 2016-11-08 12:56:47,396 cn.Wolf.utils.Log - firefox
+[INFO ] 2016-11-08 12:56:50,869 cn.Wolf.utils.Log - Opened url http://localhost:8032/zl_shop/admin.php/Login/
+[INFO ] 2016-11-08 12:56:52,274 cn.Wolf.utils.Log - Opened url http://localhost:8032/zl_shop/index.php
+[INFO ] 2016-11-08 12:56:53,281 cn.Wolf.utils.Log - org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'zjh', ip: '10.222.244.14', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: driver.version: RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 4a7dc133-b19d-4e40-810f-3bd49bf8e4c5
+[INFO ] 2016-11-08 12:56:54,295 cn.Wolf.utils.Log - org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'zjh', ip: '10.222.244.14', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: driver.version: RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 4a7dc133-b19d-4e40-810f-3bd49bf8e4c5
+[INFO ] 2016-11-08 12:56:55,300 cn.Wolf.utils.Log - org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'zjh', ip: '10.222.244.14', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: driver.version: RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 4a7dc133-b19d-4e40-810f-3bd49bf8e4c5
+[INFO ] 2016-11-08 12:56:56,305 cn.Wolf.utils.Log - org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'zjh', ip: '10.222.244.14', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: driver.version: RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 4a7dc133-b19d-4e40-810f-3bd49bf8e4c5
+[INFO ] 2016-11-08 12:56:57,318 cn.Wolf.utils.Log - org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'zjh', ip: '10.222.244.14', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: driver.version: RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 4a7dc133-b19d-4e40-810f-3bd49bf8e4c5
+[INFO ] 2016-11-08 12:57:01,334 cn.Wolf.utils.Log - org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'zjh', ip: '10.222.244.14', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: driver.version: RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 4a7dc133-b19d-4e40-810f-3bd49bf8e4c5
+[INFO ] 2016-11-08 12:57:20,997 cn.Wolf.utils.Log - Using Firefox
+[INFO ] 2016-11-08 12:57:21,002 cn.Wolf.utils.Log - firefox
+[INFO ] 2016-11-08 12:57:24,880 cn.Wolf.utils.Log - Opened url http://localhost:8032/zl_shop/index.php
+[INFO ] 2016-11-08 12:57:39,654 cn.Wolf.utils.Log - org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"link text","selector":"加入购物车"}
+Command duration or timeout: 1.02 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'zjh', ip: '10.222.244.14', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 7942e3cf-bcef-401c-bad0-dff498a2724d
+*** Element info: {Using=link text, value=加入购物车}
+[INFO ] 2016-11-08 12:57:43,274 cn.Wolf.utils.Log - Quitted Browser
+[INFO ] 2016-11-08 13:04:01,052 cn.Wolf.utils.Log - Using Firefox
+[INFO ] 2016-11-08 13:04:01,058 cn.Wolf.utils.Log - firefox
+[INFO ] 2016-11-08 13:04:04,850 cn.Wolf.utils.Log - Opened url http://localhost:8032/zl_shop/index.php
+[INFO ] 2016-11-08 13:04:18,633 cn.Wolf.utils.Log - org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//*[@id='choose']/div[1]/div[1]/div[2]/label[2]"}
+Command duration or timeout: 26 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'zjh', ip: '10.222.244.14', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 5071a19e-7b09-4536-a822-a99af95e22d9
+*** Element info: {Using=xpath, value=//*[@id='choose']/div[1]/div[1]/div[2]/label[2]}
+[INFO ] 2016-11-08 13:04:22,255 cn.Wolf.utils.Log - Quitted Browser
+[INFO ] 2016-11-08 13:06:12,690 cn.Wolf.utils.Log - Using Firefox
+[INFO ] 2016-11-08 13:06:12,695 cn.Wolf.utils.Log - firefox
+[INFO ] 2016-11-08 13:06:16,436 cn.Wolf.utils.Log - Opened url http://localhost:8032/zl_shop/index.php
+[INFO ] 2016-11-08 13:06:30,030 cn.Wolf.utils.Log - org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"id","selector":"color23"}
+Command duration or timeout: 10 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'zjh', ip: '10.222.244.14', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: f85ef303-a511-4c98-92c4-8b62a2126a03
+*** Element info: {Using=id, value=color23}
+[INFO ] 2016-11-08 13:06:33,622 cn.Wolf.utils.Log - Quitted Browser
+[INFO ] 2016-11-08 13:55:31,582 cn.Wolf.utils.Log - Using Firefox
+[INFO ] 2016-11-08 13:55:31,626 cn.Wolf.utils.Log - firefox
+[INFO ] 2016-11-08 13:55:37,017 cn.Wolf.utils.Log - Opened url http://localhost:8032/zl_shop/index.php
+[INFO ] 2016-11-08 13:55:52,194 cn.Wolf.utils.Log - org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"id","selector":"color23"}
+Command duration or timeout: 29 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'zjh', ip: '10.7.90.28', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 7ed5f3d5-490f-42f8-b3b7-b03f9a64a1a6
+*** Element info: {Using=id, value=color23}
+[INFO ] 2016-11-08 13:55:56,875 cn.Wolf.utils.Log - Quitted Browser
+[INFO ] 2016-11-08 13:58:37,384 cn.Wolf.utils.Log - Using Firefox
+[INFO ] 2016-11-08 13:58:37,389 cn.Wolf.utils.Log - firefox
+[INFO ] 2016-11-08 13:58:41,170 cn.Wolf.utils.Log - Opened url http://localhost:8032/zl_shop/admin.php/Login/
+[INFO ] 2016-11-08 13:58:43,208 cn.Wolf.utils.Log - Opened url http://localhost:8032/zl_shop/index.php
+[INFO ] 2016-11-08 13:58:44,212 cn.Wolf.utils.Log - org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'zjh', ip: '10.7.90.28', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: driver.version: RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 2e7af22f-ed41-43b9-8c02-e26d56f577a1
+[INFO ] 2016-11-08 13:58:45,218 cn.Wolf.utils.Log - org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'zjh', ip: '10.7.90.28', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: driver.version: RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 2e7af22f-ed41-43b9-8c02-e26d56f577a1
+[INFO ] 2016-11-08 13:58:46,225 cn.Wolf.utils.Log - org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'zjh', ip: '10.7.90.28', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: driver.version: RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 2e7af22f-ed41-43b9-8c02-e26d56f577a1
+[INFO ] 2016-11-08 13:58:47,244 cn.Wolf.utils.Log - org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'zjh', ip: '10.7.90.28', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: driver.version: RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 2e7af22f-ed41-43b9-8c02-e26d56f577a1
+[INFO ] 2016-11-08 13:58:48,254 cn.Wolf.utils.Log - org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'zjh', ip: '10.7.90.28', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: driver.version: RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 2e7af22f-ed41-43b9-8c02-e26d56f577a1
+[INFO ] 2016-11-08 13:58:52,260 cn.Wolf.utils.Log - org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'zjh', ip: '10.7.90.28', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: driver.version: RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 2e7af22f-ed41-43b9-8c02-e26d56f577a1
+[INFO ] 2016-11-08 13:59:07,871 cn.Wolf.utils.Log - Using Firefox
+[INFO ] 2016-11-08 13:59:07,877 cn.Wolf.utils.Log - firefox
+[INFO ] 2016-11-08 13:59:11,647 cn.Wolf.utils.Log - Opened url http://localhost:8032/zl_shop/index.php
+[INFO ] 2016-11-08 13:59:24,924 cn.Wolf.utils.Log - org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//*[@id='choose']/div[2]/div/a"}
+Command duration or timeout: 58 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'zjh', ip: '10.7.90.28', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 0888360b-b8de-49cb-9a7b-4e06a46aa9bb
+*** Element info: {Using=xpath, value=//*[@id='choose']/div[2]/div/a}
+[INFO ] 2016-11-08 13:59:28,736 cn.Wolf.utils.Log - Quitted Browser
+[INFO ] 2016-11-08 14:00:27,844 cn.Wolf.utils.Log - Using Firefox
+[INFO ] 2016-11-08 14:00:27,848 cn.Wolf.utils.Log - firefox
+[INFO ] 2016-11-08 14:00:31,578 cn.Wolf.utils.Log - Opened url http://localhost:8032/zl_shop/index.php
+[INFO ] 2016-11-08 14:00:44,813 cn.Wolf.utils.Log - org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//*[@id='choose']/div[2]/div/a"}
+Command duration or timeout: 63 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'zjh', ip: '10.7.90.28', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 1bbf663a-4cd1-4c1b-9109-0e08299d7266
+*** Element info: {Using=xpath, value=//*[@id='choose']/div[2]/div/a}
+[INFO ] 2016-11-08 14:00:48,570 cn.Wolf.utils.Log - Quitted Browser
+[INFO ] 2016-11-08 14:07:23,831 cn.Wolf.utils.Log - Using Firefox
+[INFO ] 2016-11-08 14:07:23,834 cn.Wolf.utils.Log - firefox
+[INFO ] 2016-11-08 14:07:27,231 cn.Wolf.utils.Log - Opened url http://localhost:8032/zl_shop/admin.php/Login/
+[INFO ] 2016-11-08 14:07:29,274 cn.Wolf.utils.Log - Opened url http://localhost:8032/zl_shop/index.php
+[INFO ] 2016-11-08 14:07:30,283 cn.Wolf.utils.Log - org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'zjh', ip: '10.7.90.28', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: driver.version: RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 142c5337-b37c-47eb-8a2b-9ddf5844d07d
+[INFO ] 2016-11-08 14:07:31,291 cn.Wolf.utils.Log - org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'zjh', ip: '10.7.90.28', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: driver.version: RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 142c5337-b37c-47eb-8a2b-9ddf5844d07d
+[INFO ] 2016-11-08 14:07:32,297 cn.Wolf.utils.Log - org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'zjh', ip: '10.7.90.28', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: driver.version: RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 142c5337-b37c-47eb-8a2b-9ddf5844d07d
+[INFO ] 2016-11-08 14:07:33,303 cn.Wolf.utils.Log - org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'zjh', ip: '10.7.90.28', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: driver.version: RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 142c5337-b37c-47eb-8a2b-9ddf5844d07d
+[INFO ] 2016-11-08 14:07:34,313 cn.Wolf.utils.Log - org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'zjh', ip: '10.7.90.28', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: driver.version: RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 142c5337-b37c-47eb-8a2b-9ddf5844d07d
+[INFO ] 2016-11-08 14:07:38,330 cn.Wolf.utils.Log - org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'zjh', ip: '10.7.90.28', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: driver.version: RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 142c5337-b37c-47eb-8a2b-9ddf5844d07d
+[INFO ] 2016-11-08 14:07:43,890 cn.Wolf.utils.Log - Using Firefox
+[INFO ] 2016-11-08 14:07:43,894 cn.Wolf.utils.Log - firefox
+[INFO ] 2016-11-08 14:07:47,953 cn.Wolf.utils.Log - Opened url http://localhost:8032/zl_shop/index.php
+[INFO ] 2016-11-08 14:08:01,123 cn.Wolf.utils.Log - org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//*[@id='choose']/div[2]/div/a"}
+Command duration or timeout: 52 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'zjh', ip: '10.7.90.28', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 339c3222-c7d5-4d17-8fdf-c1ce9676c65e
+*** Element info: {Using=xpath, value=//*[@id='choose']/div[2]/div/a}
+[INFO ] 2016-11-08 14:08:04,892 cn.Wolf.utils.Log - Quitted Browser
+[INFO ] 2016-11-08 14:30:12,470 cn.Wolf.utils.Log - Using Firefox
+[INFO ] 2016-11-08 14:30:12,476 cn.Wolf.utils.Log - firefox
+[INFO ] 2016-11-08 14:30:16,102 cn.Wolf.utils.Log - Opened url http://localhost:8032/zl_shop/admin.php/Login/
+[INFO ] 2016-11-08 14:30:25,141 cn.Wolf.utils.Log - Opened url http://localhost:8032/zl_shop/index.php
+[INFO ] 2016-11-08 14:30:35,323 cn.Wolf.utils.Log - org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//*[@id='choose']/div[2]/div/a"}
+Command duration or timeout: 46 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'zjh', ip: '10.7.90.28', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 6aeb4907-9a8f-4c70-8ab6-ec1ac254b387
+*** Element info: {Using=xpath, value=//*[@id='choose']/div[2]/div/a}
+[INFO ] 2016-11-08 14:30:39,147 cn.Wolf.utils.Log - Quitted Browser
+[INFO ] 2016-11-08 14:32:43,565 cn.Wolf.utils.Log - Using Firefox
+[INFO ] 2016-11-08 14:32:43,569 cn.Wolf.utils.Log - firefox
+[INFO ] 2016-11-08 14:32:47,298 cn.Wolf.utils.Log - Opened url http://localhost:8032/zl_shop/index.php
+[INFO ] 2016-11-08 14:32:57,494 cn.Wolf.utils.Log - org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//*[@id='choose']/div[2]/div/a"}
+Command duration or timeout: 65 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'zjh', ip: '10.7.90.28', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 2876a099-0def-49a6-8eb0-3190735136f0
+*** Element info: {Using=xpath, value=//*[@id='choose']/div[2]/div/a}
+[INFO ] 2016-11-08 14:33:01,098 cn.Wolf.utils.Log - Quitted Browser
+[INFO ] 2016-11-08 14:35:04,079 cn.Wolf.utils.Log - Using Firefox
+[INFO ] 2016-11-08 14:35:04,083 cn.Wolf.utils.Log - firefox
+[INFO ] 2016-11-08 14:35:07,500 cn.Wolf.utils.Log - Opened url http://localhost:8032/zl_shop/admin.php/Login/
+[INFO ] 2016-11-08 14:35:15,499 cn.Wolf.utils.Log - Opened url http://localhost:8032/zl_shop/index.php
+[INFO ] 2016-11-08 14:35:28,582 cn.Wolf.utils.Log - org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//*[@id='choose']/div[2]/div/a/b"}
+Command duration or timeout: 53 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'zjh', ip: '10.7.90.28', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 8555f448-1a17-45aa-b70b-0ab387ad1174
+*** Element info: {Using=xpath, value=//*[@id='choose']/div[2]/div/a/b}
+[INFO ] 2016-11-08 14:35:32,169 cn.Wolf.utils.Log - Quitted Browser
+[INFO ] 2016-11-08 15:47:07,084 cn.Wolf.utils.Log - Using Firefox
+[INFO ] 2016-11-08 15:47:07,089 cn.Wolf.utils.Log - firefox
+[INFO ] 2016-11-08 15:47:10,879 cn.Wolf.utils.Log - Opened url http://localhost:8032/zl_shop/index.php
+[INFO ] 2016-11-08 15:47:18,234 cn.Wolf.utils.Log - Quitted Browser
+[INFO ] 2016-11-08 15:49:00,301 cn.Wolf.utils.Log - Using Firefox
+[INFO ] 2016-11-08 15:49:00,306 cn.Wolf.utils.Log - firefox
+[INFO ] 2016-11-08 15:49:04,097 cn.Wolf.utils.Log - Opened url http://localhost:8032/zl_shop/index.php
+[INFO ] 2016-11-08 15:49:14,837 cn.Wolf.utils.Log - Quitted Browser
+[INFO ] 2016-11-08 15:49:40,913 cn.Wolf.utils.Log - Using Firefox
+[INFO ] 2016-11-08 15:49:40,916 cn.Wolf.utils.Log - firefox
+[INFO ] 2016-11-08 15:49:44,565 cn.Wolf.utils.Log - Opened url http://localhost:8032/zl_shop/index.php
+[INFO ] 2016-11-08 16:02:43,511 cn.Wolf.utils.Log - Using Firefox
+[INFO ] 2016-11-08 16:02:43,516 cn.Wolf.utils.Log - firefox
+[INFO ] 2016-11-08 16:02:47,204 cn.Wolf.utils.Log - Opened url http://localhost:8032/zl_shop/index.php
+[INFO ] 2016-11-08 16:03:00,914 cn.Wolf.utils.Log - Quitted Browser
+[INFO ] 2016-11-08 16:15:31,786 cn.Wolf.utils.Log - Using Firefox
+[INFO ] 2016-11-08 16:15:31,791 cn.Wolf.utils.Log - firefox
+[INFO ] 2016-11-08 16:15:35,510 cn.Wolf.utils.Log - Opened url http://localhost:8032/zl_shop/index.php
+[INFO ] 2016-11-08 16:15:49,153 cn.Wolf.utils.Log - Quitted Browser
+[INFO ] 2016-11-08 16:39:58,834 cn.Wolf.utils.Log - Using Firefox
+[INFO ] 2016-11-08 16:39:58,838 cn.Wolf.utils.Log - firefox
+[INFO ] 2016-11-08 16:39:58,927 cn.Wolf.utils.Log - org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"link text","selector":"快速注册"}
+Command duration or timeout: 34 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'zjh', ip: '10.7.90.28', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: fac67059-3066-45bb-97eb-3de1821fa28d
+*** Element info: {Using=link text, value=快速注册}
+[INFO ] 2016-11-08 16:39:58,938 cn.Wolf.utils.Log - org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"name","selector":"username"}
+Command duration or timeout: 11 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'zjh', ip: '10.7.90.28', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: fac67059-3066-45bb-97eb-3de1821fa28d
+*** Element info: {Using=name, value=username}
+[INFO ] 2016-11-08 16:39:58,948 cn.Wolf.utils.Log - org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"name","selector":"password"}
+Command duration or timeout: 9 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'zjh', ip: '10.7.90.28', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: fac67059-3066-45bb-97eb-3de1821fa28d
+*** Element info: {Using=name, value=password}
+[INFO ] 2016-11-08 16:39:58,958 cn.Wolf.utils.Log - org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"name","selector":"password2"}
+Command duration or timeout: 8 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'zjh', ip: '10.7.90.28', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: fac67059-3066-45bb-97eb-3de1821fa28d
+*** Element info: {Using=name, value=password2}
+[INFO ] 2016-11-08 16:39:58,968 cn.Wolf.utils.Log - org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"name","selector":"email"}
+Command duration or timeout: 9 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'zjh', ip: '10.7.90.28', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: fac67059-3066-45bb-97eb-3de1821fa28d
+*** Element info: {Using=name, value=email}
+[INFO ] 2016-11-08 16:39:58,977 cn.Wolf.utils.Log - org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//*[@id='regform']/div[7]/div[2]/input"}
+Command duration or timeout: 7 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'zjh', ip: '10.7.90.28', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: fac67059-3066-45bb-97eb-3de1821fa28d
+*** Element info: {Using=xpath, value=//*[@id='regform']/div[7]/div[2]/input}
+[INFO ] 2016-11-08 16:39:59,239 cn.Wolf.utils.Log - Quitted Browser
+[INFO ] 2016-11-08 16:40:28,216 cn.Wolf.utils.Log - Using Firefox
+[INFO ] 2016-11-08 16:40:28,220 cn.Wolf.utils.Log - firefox
+[INFO ] 2016-11-08 16:40:31,842 cn.Wolf.utils.Log - Opened url http://localhost:8032/zl_shop/index.php
+[INFO ] 2016-11-08 16:40:40,580 cn.Wolf.utils.Log - Quitted Browser
