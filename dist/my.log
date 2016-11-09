@@ -409,3 +409,34 @@ Session ID: fac67059-3066-45bb-97eb-3de1821fa28d
 [INFO ] 2016-11-08 16:40:28,220 cn.Wolf.utils.Log - firefox
 [INFO ] 2016-11-08 16:40:31,842 cn.Wolf.utils.Log - Opened url http://localhost:8032/zl_shop/index.php
 [INFO ] 2016-11-08 16:40:40,580 cn.Wolf.utils.Log - Quitted Browser
+[INFO ] 2016-11-09 11:04:08,682 cn.Wolf.utils.Log - Using Firefox
+[INFO ] 2016-11-09 11:04:08,733 cn.Wolf.utils.Log - firefox
+[INFO ] 2016-11-09 11:04:11,271 cn.Wolf.utils.Log - Quitted Browser
+[INFO ] 2016-11-09 11:05:10,625 cn.Wolf.utils.Log - Using Firefox
+[INFO ] 2016-11-09 11:05:10,630 cn.Wolf.utils.Log - firefox
+[INFO ] 2016-11-09 11:05:27,519 cn.Wolf.utils.Log - Opened url http://localhost:8032/zl_shop/admin.php/Login/index.html
+[INFO ] 2016-11-09 11:05:43,087 cn.Wolf.utils.Log - Quitted Browser
+[INFO ] 2016-11-09 13:00:24,031 cn.Wolf.utils.Log - Using Firefox
+[INFO ] 2016-11-09 13:00:24,053 cn.Wolf.utils.Log - firefox
+[INFO ] 2016-11-09 13:00:30,637 cn.Wolf.utils.Log - Opened url http://localhost:8032/zl_shop/admin.php/Login/index.html
+[INFO ] 2016-11-09 13:01:07,567 cn.Wolf.utils.Log - Using Firefox
+[INFO ] 2016-11-09 13:01:07,599 cn.Wolf.utils.Log - firefox
+[INFO ] 2016-11-09 13:01:11,626 cn.Wolf.utils.Log - Opened url http://localhost:8032/zl_shop/admin.php/Login/index.html
+[INFO ] 2016-11-09 13:02:14,187 cn.Wolf.utils.Log - Using Firefox
+[INFO ] 2016-11-09 13:02:14,192 cn.Wolf.utils.Log - firefox
+[INFO ] 2016-11-09 13:02:17,985 cn.Wolf.utils.Log - Opened url http://localhost:8032/zl_shop/admin.php/Login/index.html
+[INFO ] 2016-11-09 13:03:19,397 cn.Wolf.utils.Log - Using Firefox
+[INFO ] 2016-11-09 13:03:19,404 cn.Wolf.utils.Log - firefox
+[INFO ] 2016-11-09 13:03:23,091 cn.Wolf.utils.Log - Opened url http://localhost:8032/zl_shop/admin.php/Login/index.html
+[INFO ] 2016-11-09 13:03:47,274 cn.Wolf.utils.Log - Quitted Browser
+[INFO ] 2016-11-09 13:13:51,493 cn.Wolf.utils.Log - Using Firefox
+[INFO ] 2016-11-09 13:13:51,498 cn.Wolf.utils.Log - firefox
+[INFO ] 2016-11-09 13:13:55,423 cn.Wolf.utils.Log - Opened url http://localhost:8032/zl_shop/admin.php/Login/index.html
+[INFO ] 2016-11-09 13:14:16,390 cn.Wolf.utils.Log - Using Firefox
+[INFO ] 2016-11-09 13:14:16,395 cn.Wolf.utils.Log - firefox
+[INFO ] 2016-11-09 13:14:20,173 cn.Wolf.utils.Log - Opened url http://localhost:8032/zl_shop/admin.php/Login/index.html
+[INFO ] 2016-11-09 13:14:45,240 cn.Wolf.utils.Log - Quitted Browser
+[INFO ] 2016-11-09 13:46:49,344 cn.Wolf.utils.Log - Using Firefox
+[INFO ] 2016-11-09 13:46:49,365 cn.Wolf.utils.Log - firefox
+[INFO ] 2016-11-09 13:46:54,370 cn.Wolf.utils.Log - Opened url http://localhost:8032/zl_shop/admin.php/Login/index.html
+[INFO ] 2016-11-09 13:47:14,872 cn.Wolf.utils.Log - Quitted Browser

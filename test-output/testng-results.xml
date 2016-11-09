@@ -2,24 +2,32 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="17337" started-at="2016-11-08T08:40:23Z" finished-at="2016-11-08T08:40:40Z">
+  <suite name="Default suite" duration-ms="41322" started-at="2016-11-09T05:46:33Z" finished-at="2016-11-09T05:47:14Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="17337" started-at="2016-11-08T08:40:23Z" finished-at="2016-11-08T08:40:40Z">
-      <class name="cn.Wolf.testScripts.LoginTest">
-        <test-method status="PASS" signature="doBeforeMethod()[pri:0, instance:cn.Wolf.testScripts.LoginTest@5f150435]" name="doBeforeMethod" is-config="true" duration-ms="5020" started-at="2016-11-08T16:40:23Z" finished-at="2016-11-08T16:40:28Z">
+    <test name="Default test" duration-ms="41322" started-at="2016-11-09T05:46:33Z" finished-at="2016-11-09T05:47:14Z">
+      <class name="cn.Wolf.testScripts.BackCommentDeleteTest">
+        <test-method status="PASS" signature="doBeforeMethod()[pri:0, instance:cn.Wolf.testScripts.BackCommentDeleteTest@52929ed4]" name="doBeforeMethod" is-config="true" duration-ms="16118" started-at="2016-11-09T13:46:33Z" finished-at="2016-11-09T13:46:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doBeforeMethod -->
-        <test-method status="PASS" signature="registerTest()[pri:0, instance:cn.Wolf.testScripts.LoginTest@5f150435]" name="registerTest" duration-ms="11523" started-at="2016-11-08T16:40:28Z" finished-at="2016-11-08T16:40:39Z">
+        <test-method status="PASS" signature="backlogin()[pri:0, instance:cn.Wolf.testScripts.BackCommentDeleteTest@52929ed4]" name="backlogin" is-config="true" duration-ms="10295" started-at="2016-11-09T13:46:49Z" finished-at="2016-11-09T13:47:00Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- registerTest -->
-        <test-method status="PASS" signature="doAfterMethod()[pri:0, instance:cn.Wolf.testScripts.LoginTest@5f150435]" name="doAfterMethod" is-config="true" duration-ms="783" started-at="2016-11-08T16:40:39Z" finished-at="2016-11-08T16:40:40Z">
+        </test-method> <!-- backlogin -->
+        <test-method status="PASS" signature="commentlist()[pri:0, instance:cn.Wolf.testScripts.BackCommentDeleteTest@52929ed4]" name="commentlist" duration-ms="6677" started-at="2016-11-09T13:47:00Z" finished-at="2016-11-09T13:47:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- commentlist -->
+        <test-method status="PASS" signature="commentdelete()[pri:0, instance:cn.Wolf.testScripts.BackCommentDeleteTest@52929ed4]" name="commentdelete" is-config="true" duration-ms="6045" started-at="2016-11-09T13:47:06Z" finished-at="2016-11-09T13:47:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- commentdelete -->
+        <test-method status="PASS" signature="doAfterMethod()[pri:0, instance:cn.Wolf.testScripts.BackCommentDeleteTest@52929ed4]" name="doAfterMethod" is-config="true" duration-ms="2074" started-at="2016-11-09T13:47:12Z" finished-at="2016-11-09T13:47:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doAfterMethod -->
-      </class> <!-- cn.Wolf.testScripts.LoginTest -->
+      </class> <!-- cn.Wolf.testScripts.BackCommentDeleteTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
