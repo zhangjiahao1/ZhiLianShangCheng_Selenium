@@ -9,6 +9,7 @@ import cn.Wolf.utils.SwitchWindows;
 
 public class LoginTest extends BaseTest{
 	
+	
 	@Test(dataProvider = "Login", dataProviderClass=NSDataProvicer.class)
 	public void logintest(String username, String password) throws InterruptedException{
 		LoginModule.loginTest(username, password);
@@ -29,15 +30,20 @@ public class LoginTest extends BaseTest{
 	
 	
 	
-	@Test(enabled = false)
+	@Test
 	public void backTest(){
 		LoginBackPage h = new LoginBackPage(back.getDriver());
 		back.open("http://localhost:8032/zl_shop/admin.php/Login/");
 		back.type(h.username, "admin");
 		back.type(h.password, "admin");
 		back.click(h.button);
+		back.click(h.GoodsManage);
+		back.click(h.GoodsManage1);
+		back.
+		
 
 	}
+	
 	//back.click(PropertiesUtil.getStrings("registerLink", "conf/LoginPageObjects.properties"));
 }
 

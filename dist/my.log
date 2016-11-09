@@ -503,3 +503,34 @@ Session ID: 91c6a8c5-c8ed-41fb-aa3a-6e4c60af61b6
 [INFO ] 2016-11-09 10:16:24,557 cn.Wolf.utils.Log - Using Firefox
 [INFO ] 2016-11-09 10:16:24,561 cn.Wolf.utils.Log - firefox
 [INFO ] 2016-11-09 10:16:26,404 cn.Wolf.utils.Log - Quitted Browser
+[INFO ] 2016-11-09 10:46:33,396 cn.Wolf.utils.Log - Using Firefox
+[INFO ] 2016-11-09 10:46:33,399 cn.Wolf.utils.Log - firefox
+[INFO ] 2016-11-09 10:46:33,694 cn.Wolf.utils.Log - Quitted Browser
+[INFO ] 2016-11-09 10:46:49,854 cn.Wolf.utils.Log - Using Firefox
+[INFO ] 2016-11-09 10:46:49,860 cn.Wolf.utils.Log - firefox
+[INFO ] 2016-11-09 10:46:54,016 cn.Wolf.utils.Log - Opened url http://localhost:8032/zl_shop/index.php/index/index.html
+[INFO ] 2016-11-09 10:46:55,028 cn.Wolf.utils.Log - org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'zjh', ip: '10.7.90.28', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: driver.version: RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 32e5647d-d617-4a4c-909c-e81ec8a63665
+[INFO ] 2016-11-09 10:46:59,043 cn.Wolf.utils.Log - org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'zjh', ip: '10.7.90.28', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: driver.version: RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 32e5647d-d617-4a4c-909c-e81ec8a63665
+[INFO ] 2016-11-09 10:47:13,041 cn.Wolf.utils.Log - Using Firefox
+[INFO ] 2016-11-09 10:47:13,045 cn.Wolf.utils.Log - firefox
+[INFO ] 2016-11-09 10:47:13,417 cn.Wolf.utils.Log - Quitted Browser
+[INFO ] 2016-11-09 10:47:45,639 cn.Wolf.utils.Log - Using Firefox
+[INFO ] 2016-11-09 10:47:45,643 cn.Wolf.utils.Log - firefox
+[INFO ] 2016-11-09 10:47:45,998 cn.Wolf.utils.Log - Quitted Browser
+[INFO ] 2016-11-09 10:48:48,821 cn.Wolf.utils.Log - Using Firefox
+[INFO ] 2016-11-09 10:48:48,824 cn.Wolf.utils.Log - firefox
+[INFO ] 2016-11-09 10:48:52,453 cn.Wolf.utils.Log - Opened url http://localhost:8032/zl_shop/admin.php/Login/
+[INFO ] 2016-11-09 10:51:55,326 cn.Wolf.utils.Log - Using Firefox
+[INFO ] 2016-11-09 10:51:55,334 cn.Wolf.utils.Log - firefox
+[INFO ] 2016-11-09 10:51:59,724 cn.Wolf.utils.Log - Opened url http://localhost:8032/zl_shop/admin.php/Login/
+[INFO ] 2016-11-09 10:52:07,711 cn.Wolf.utils.Log - Quitted Browser
