@@ -409,3 +409,87 @@ Session ID: fac67059-3066-45bb-97eb-3de1821fa28d
 [INFO ] 2016-11-08 16:40:28,220 cn.Wolf.utils.Log - firefox
 [INFO ] 2016-11-08 16:40:31,842 cn.Wolf.utils.Log - Opened url http://localhost:8032/zl_shop/index.php
 [INFO ] 2016-11-08 16:40:40,580 cn.Wolf.utils.Log - Quitted Browser
+[INFO ] 2016-11-09 08:24:47,070 cn.Wolf.utils.Log - Using Firefox
+[INFO ] 2016-11-09 08:24:47,106 cn.Wolf.utils.Log - firefox
+[INFO ] 2016-11-09 08:24:51,951 cn.Wolf.utils.Log - Opened url http://localhost:8032/zl_shop/index.php/Details/index/id/49
+[INFO ] 2016-11-09 08:24:56,323 cn.Wolf.utils.Log - Quitted Browser
+[INFO ] 2016-11-09 08:30:06,056 cn.Wolf.utils.Log - Using Firefox
+[INFO ] 2016-11-09 08:30:06,059 cn.Wolf.utils.Log - firefox
+[INFO ] 2016-11-09 08:30:10,017 cn.Wolf.utils.Log - Opened url http://localhost:8032/zl_shop/index.php/Details/index/id/49
+[INFO ] 2016-11-09 08:30:13,731 cn.Wolf.utils.Log - Quitted Browser
+[INFO ] 2016-11-09 08:32:09,885 cn.Wolf.utils.Log - Using Firefox
+[INFO ] 2016-11-09 08:32:09,890 cn.Wolf.utils.Log - firefox
+[INFO ] 2016-11-09 08:32:14,123 cn.Wolf.utils.Log - Opened url http://localhost:8032/zl_shop/index.php/index/index.html
+[INFO ] 2016-11-09 08:32:20,922 cn.Wolf.utils.Log - org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//*[@id='choose']/div[2]/div/a"}
+Command duration or timeout: 29 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'zjh', ip: '10.7.90.28', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 4ac06e49-2220-4c1b-afd4-19dcec2799dd
+*** Element info: {Using=xpath, value=//*[@id='choose']/div[2]/div/a}
+[INFO ] 2016-11-09 08:32:21,545 cn.Wolf.utils.Log - Quitted Browser
+[INFO ] 2016-11-09 08:33:18,752 cn.Wolf.utils.Log - Using Firefox
+[INFO ] 2016-11-09 08:33:18,756 cn.Wolf.utils.Log - firefox
+[INFO ] 2016-11-09 08:33:22,667 cn.Wolf.utils.Log - Opened url http://localhost:8032/zl_shop/index.php/index/index.html
+[INFO ] 2016-11-09 08:33:29,399 cn.Wolf.utils.Log - //*[@id='choose']/div[2]/div/acan't find element by prefix.
+[INFO ] 2016-11-09 08:33:29,998 cn.Wolf.utils.Log - Quitted Browser
+[INFO ] 2016-11-09 08:34:10,107 cn.Wolf.utils.Log - Using Firefox
+[INFO ] 2016-11-09 08:34:10,111 cn.Wolf.utils.Log - firefox
+[INFO ] 2016-11-09 08:34:13,984 cn.Wolf.utils.Log - Opened url http://localhost:8032/zl_shop/index.php/index/index.html
+[INFO ] 2016-11-09 08:34:20,727 cn.Wolf.utils.Log - //*[@id='choose']/div[2]/div/acan't find element by prefix.
+[INFO ] 2016-11-09 08:34:23,563 cn.Wolf.utils.Log - Quitted Browser
+[INFO ] 2016-11-09 08:40:04,002 cn.Wolf.utils.Log - Using Firefox
+[INFO ] 2016-11-09 08:40:04,005 cn.Wolf.utils.Log - firefox
+[INFO ] 2016-11-09 08:40:08,143 cn.Wolf.utils.Log - Opened url http://localhost:8032/zl_shop/index.php/index/index.html
+[INFO ] 2016-11-09 08:40:14,859 cn.Wolf.utils.Log - //*[@id='choose']/div[2]/div/acan't find element by prefix.
+[INFO ] 2016-11-09 08:40:17,526 cn.Wolf.utils.Log - Quitted Browser
+[INFO ] 2016-11-09 08:41:22,466 cn.Wolf.utils.Log - Using Firefox
+[INFO ] 2016-11-09 08:41:22,471 cn.Wolf.utils.Log - firefox
+[INFO ] 2016-11-09 08:41:26,491 cn.Wolf.utils.Log - Opened url http://localhost:8032/zl_shop/index.php/index/index.html
+[INFO ] 2016-11-09 08:41:30,133 cn.Wolf.utils.Log - //*[@id='choose']/div[2]/div/acan't find element by prefix.
+[INFO ] 2016-11-09 08:41:32,770 cn.Wolf.utils.Log - Quitted Browser
+[INFO ] 2016-11-09 08:42:19,136 cn.Wolf.utils.Log - Using Firefox
+[INFO ] 2016-11-09 08:42:19,140 cn.Wolf.utils.Log - firefox
+[INFO ] 2016-11-09 08:42:23,056 cn.Wolf.utils.Log - Opened url http://localhost:8032/zl_shop/index.php/index/index.html
+[INFO ] 2016-11-09 08:42:26,706 cn.Wolf.utils.Log - //*[@id='choose']/div[2]/div/acan't find element by prefix.
+[INFO ] 2016-11-09 08:42:29,336 cn.Wolf.utils.Log - Quitted Browser
+[INFO ] 2016-11-09 08:43:34,813 cn.Wolf.utils.Log - Using Firefox
+[INFO ] 2016-11-09 08:43:34,816 cn.Wolf.utils.Log - firefox
+[INFO ] 2016-11-09 08:43:38,901 cn.Wolf.utils.Log - Opened url http://localhost:8032/zl_shop/index.php/Details/index/id/19
+[INFO ] 2016-11-09 08:43:38,902 cn.Wolf.utils.Log - //*[@id='choose']/div[2]/div/acan't find element by prefix.
+[INFO ] 2016-11-09 08:43:41,380 cn.Wolf.utils.Log - Quitted Browser
+[INFO ] 2016-11-09 08:44:17,493 cn.Wolf.utils.Log - Using Firefox
+[INFO ] 2016-11-09 08:44:17,497 cn.Wolf.utils.Log - firefox
+[INFO ] 2016-11-09 08:44:21,225 cn.Wolf.utils.Log - Opened url http://localhost:8032/zl_shop/index.php/Details/index/id/19
+[INFO ] 2016-11-09 08:44:26,930 cn.Wolf.utils.Log - Quitted Browser
+[INFO ] 2016-11-09 08:45:02,981 cn.Wolf.utils.Log - Using Firefox
+[INFO ] 2016-11-09 08:45:02,984 cn.Wolf.utils.Log - firefox
+[INFO ] 2016-11-09 08:45:07,045 cn.Wolf.utils.Log - Opened url http://localhost:8032/zl_shop/index.php/index/index.html
+[INFO ] 2016-11-09 08:45:12,804 cn.Wolf.utils.Log - org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//*[@id='choose']/div[2]/div/a"}
+Command duration or timeout: 23 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'zjh', ip: '10.7.90.28', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 91c6a8c5-c8ed-41fb-aa3a-6e4c60af61b6
+*** Element info: {Using=xpath, value=//*[@id='choose']/div[2]/div/a}
+[INFO ] 2016-11-09 08:45:15,589 cn.Wolf.utils.Log - Quitted Browser
+[INFO ] 2016-11-09 08:50:39,556 cn.Wolf.utils.Log - Using Firefox
+[INFO ] 2016-11-09 08:50:39,560 cn.Wolf.utils.Log - firefox
+[INFO ] 2016-11-09 08:50:43,570 cn.Wolf.utils.Log - Opened url http://localhost:8032/zl_shop/index.php/index/index.html
+[INFO ] 2016-11-09 08:50:51,947 cn.Wolf.utils.Log - Quitted Browser
+[INFO ] 2016-11-09 08:52:42,755 cn.Wolf.utils.Log - Using Firefox
+[INFO ] 2016-11-09 08:52:42,758 cn.Wolf.utils.Log - firefox
+[INFO ] 2016-11-09 08:52:46,856 cn.Wolf.utils.Log - Opened url http://localhost:8032/zl_shop/index.php/index/index.html
+[INFO ] 2016-11-09 08:52:55,462 cn.Wolf.utils.Log - Quitted Browser
+[INFO ] 2016-11-09 09:08:50,058 cn.Wolf.utils.Log - Using Firefox
+[INFO ] 2016-11-09 09:08:50,061 cn.Wolf.utils.Log - firefox
+[INFO ] 2016-11-09 09:08:54,035 cn.Wolf.utils.Log - Opened url http://localhost:8032/zl_shop/index.php/index/index.html
+[INFO ] 2016-11-09 09:09:05,455 cn.Wolf.utils.Log - Quitted Browser
+[INFO ] 2016-11-09 09:09:24,493 cn.Wolf.utils.Log - Using Firefox
+[INFO ] 2016-11-09 09:09:24,497 cn.Wolf.utils.Log - firefox
+[INFO ] 2016-11-09 09:09:28,432 cn.Wolf.utils.Log - Opened url http://localhost:8032/zl_shop/index.php/index/index.html
+[INFO ] 2016-11-09 09:09:39,806 cn.Wolf.utils.Log - Quitted Browser
