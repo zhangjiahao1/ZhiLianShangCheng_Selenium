@@ -4,10 +4,17 @@ import org.testng.annotations.Test;
 import cn.Wolf.cores.BaseTest;
 import cn.Wolf.pageObjects.LoginBackPage;
 import cn.Wolf.appModules.LoginModule;
+import cn.Wolf.utils.NSDataProvicer;
 import cn.Wolf.utils.SwitchWindows;
 
-
 public class LoginTest extends BaseTest{
+	
+	@Test(dataProvider = "Login", dataProviderClass=NSDataProvicer.class)
+	public void logintest(String username, String password) throws InterruptedException{
+		LoginModule.loginTest(username, password);
+		
+	}
+
 	
 	@Test
 	public void test1() throws InterruptedException{
@@ -19,22 +26,9 @@ public class LoginTest extends BaseTest{
 		Thread.sleep(2000);
 	}
 	
-	@Test(enabled = false)
-	public void logintest() throws InterruptedException{
-		LoginModule.loginTest("zhangjiahao", "9544257521");
-		
-	}
 	
-	@Test(enabled = false)
-	public void registerTest(){
-		front.open("http://localhost:8032/zl_shop/index.php");
-		front.click("link=快速注册");
-		front.type("name=username", "zhangjiajia");
-		front.type("name=password", "1234567890");
-		front.type("name=password2", "1234567890");
-		front.type("name=email", "1234@qq.com");
-		front.click("xpath=//*[@id='regform']/div[7]/div[2]/input");
-	}
+	
+	
 	@Test(enabled = false)
 	public void backTest(){
 		LoginBackPage h = new LoginBackPage(back.getDriver());
@@ -46,3 +40,10 @@ public class LoginTest extends BaseTest{
 	}
 	//back.click(PropertiesUtil.getStrings("registerLink", "conf/LoginPageObjects.properties"));
 }
+
+
+
+
+
+
+

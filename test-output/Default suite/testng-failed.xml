@@ -5,7 +5,7 @@
     <classes>
       <class name="cn.Wolf.testScripts.LoginTest">
         <methods>
-          <include name="test1"/>
+          <include name="logintest"/>
           <include name="doAfterMethod"/>
           <include name="doBeforeMethod"/>
         </methods>

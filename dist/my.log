@@ -493,3 +493,13 @@ Session ID: 91c6a8c5-c8ed-41fb-aa3a-6e4c60af61b6
 [INFO ] 2016-11-09 09:09:24,497 cn.Wolf.utils.Log - firefox
 [INFO ] 2016-11-09 09:09:28,432 cn.Wolf.utils.Log - Opened url http://localhost:8032/zl_shop/index.php/index/index.html
 [INFO ] 2016-11-09 09:09:39,806 cn.Wolf.utils.Log - Quitted Browser
+[INFO ] 2016-11-09 09:59:28,324 cn.Wolf.utils.Log - Using Firefox
+[INFO ] 2016-11-09 09:59:28,328 cn.Wolf.utils.Log - firefox
+[INFO ] 2016-11-09 09:59:31,978 cn.Wolf.utils.Log - Opened url http://localhost:8032/zl_shop/index.php
+[INFO ] 2016-11-09 09:59:40,848 cn.Wolf.utils.Log - Quitted Browser
+[INFO ] 2016-11-09 10:15:29,573 cn.Wolf.utils.Log - Using Firefox
+[INFO ] 2016-11-09 10:15:29,577 cn.Wolf.utils.Log - firefox
+[INFO ] 2016-11-09 10:15:29,980 cn.Wolf.utils.Log - Quitted Browser
+[INFO ] 2016-11-09 10:16:24,557 cn.Wolf.utils.Log - Using Firefox
+[INFO ] 2016-11-09 10:16:24,561 cn.Wolf.utils.Log - firefox
+[INFO ] 2016-11-09 10:16:26,404 cn.Wolf.utils.Log - Quitted Browser

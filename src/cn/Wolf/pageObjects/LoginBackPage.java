@@ -17,4 +17,6 @@ public class LoginBackPage {
 	
 	@FindBy(xpath = "//*[@id='login-box']/div/div[1]/form/fieldset/div[1]/button")
 	public WebElement button;
+	
+	
 }
