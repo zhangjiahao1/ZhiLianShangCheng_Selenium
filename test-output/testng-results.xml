@@ -2,24 +2,32 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="17337" started-at="2016-11-08T08:40:23Z" finished-at="2016-11-08T08:40:40Z">
+  <suite name="Default suite" duration-ms="46241" started-at="2016-11-09T05:44:35Z" finished-at="2016-11-09T05:45:22Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="17337" started-at="2016-11-08T08:40:23Z" finished-at="2016-11-08T08:40:40Z">
-      <class name="cn.Wolf.testScripts.LoginTest">
-        <test-method status="PASS" signature="doBeforeMethod()[pri:0, instance:cn.Wolf.testScripts.LoginTest@5f150435]" name="doBeforeMethod" is-config="true" duration-ms="5020" started-at="2016-11-08T16:40:23Z" finished-at="2016-11-08T16:40:28Z">
+    <test name="Default test" duration-ms="46241" started-at="2016-11-09T05:44:35Z" finished-at="2016-11-09T05:45:22Z">
+      <class name="cn.Wolf.testScripts.RewriteAnnouncementTest">
+        <test-method status="PASS" signature="doBeforeMethod()[pri:0, instance:cn.Wolf.testScripts.RewriteAnnouncementTest@654339ed]" name="doBeforeMethod" is-config="true" duration-ms="8283" started-at="2016-11-09T13:44:35Z" finished-at="2016-11-09T13:44:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doBeforeMethod -->
-        <test-method status="PASS" signature="registerTest()[pri:0, instance:cn.Wolf.testScripts.LoginTest@5f150435]" name="registerTest" duration-ms="11523" started-at="2016-11-08T16:40:28Z" finished-at="2016-11-08T16:40:39Z">
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:cn.Wolf.testScripts.RewriteAnnouncementTest@654339ed]" name="loginTest" is-config="true" duration-ms="10942" started-at="2016-11-09T13:44:44Z" finished-at="2016-11-09T13:44:55Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- registerTest -->
-        <test-method status="PASS" signature="doAfterMethod()[pri:0, instance:cn.Wolf.testScripts.LoginTest@5f150435]" name="doAfterMethod" is-config="true" duration-ms="783" started-at="2016-11-08T16:40:39Z" finished-at="2016-11-08T16:40:40Z">
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="addAnnouncementTest()[pri:0, instance:cn.Wolf.testScripts.RewriteAnnouncementTest@654339ed]" name="addAnnouncementTest" duration-ms="10337" started-at="2016-11-09T13:44:55Z" finished-at="2016-11-09T13:45:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAnnouncementTest -->
+        <test-method status="PASS" signature="rewriteTest()[pri:0, instance:cn.Wolf.testScripts.RewriteAnnouncementTest@654339ed]" name="rewriteTest" is-config="true" duration-ms="15686" started-at="2016-11-09T13:45:05Z" finished-at="2016-11-09T13:45:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rewriteTest -->
+        <test-method status="PASS" signature="doAfterMethod()[pri:0, instance:cn.Wolf.testScripts.RewriteAnnouncementTest@654339ed]" name="doAfterMethod" is-config="true" duration-ms="950" started-at="2016-11-09T13:45:21Z" finished-at="2016-11-09T13:45:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doAfterMethod -->
-      </class> <!-- cn.Wolf.testScripts.LoginTest -->
+      </class> <!-- cn.Wolf.testScripts.RewriteAnnouncementTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

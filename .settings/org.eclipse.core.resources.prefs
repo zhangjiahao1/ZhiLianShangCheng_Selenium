@@ -1,3 +1,7 @@
 eclipse.preferences.version=1
 encoding//src/cn/Wolf/cores/RobotExp.java=UTF-8
+encoding//src/cn/Wolf/testScripts/AddAnnouncementTest.java=UTF-8
+encoding//src/cn/Wolf/testScripts/AddPresentationDiagramTest.java=UTF-8
+encoding//src/cn/Wolf/testScripts/ChangeAnnouncementTest.java=UTF-8
+encoding//src/cn/Wolf/testScripts/RewriteAnnouncementTest.java=UTF-8
 encoding//src/cn/Wolf/utils/Log.java=UTF-8
