@@ -4,53 +4,62 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-
+/**
+ * 
+ * @author å¼ ä½³æµ©
+ *
+ */
 public class GoodsManagePage {
 	public GoodsManagePage (WebDriver driver){
 		PageFactory.initElements(driver, this);
 	}
 	
-	@FindBy(linkText = "Ìí¼ÓÉÌÆ·")
-	public WebElement addGoods;//Ìí¼ÓÉÌÆ·Á´½Ó
+	@FindBy(xpath = "//*[@id='sidebar']/ul/li[2]/a")
+	public WebElement leftButton;//å·¦ä¾§çš„å•†å“ç®¡ç†æŒ‰é’®
+	
+	@FindBy(xpath = "//*[@id='sidebar']/ul/li[2]/ul/li[1]/a")
+	public WebElement sonButton;//å•†å“ç®¡ç†ä¸‹çš„å•†å“ç®¡ç†å­æŒ‰é’®
 	
 	@FindBy(name = "name")
-	public WebElement goodsName;//ÉÌÆ·Ãû
+	public WebElement searchBox;//æœç´¢æ¡†
 	
 	@FindBy(name = "minPrice")
-	public WebElement minPrice;//¼Û¸ñ´óÓÚ
+	public WebElement min;//æœ€ä½ä»·æ ¼
 	
 	@FindBy(name = "maxPrice")
-	public WebElement maxPrice;//¼Û¸ñĞ¡ÓÚ
+	public WebElement max;//æœ€é«˜ä»·æ ¼
 	
-	@FindBy(name = "type_id")
-	public WebElement kindsList;//ÖÖÀàÑ¡ÔñÏÂÀ­¿ò
+	@FindBy(id = "type_id")
+	public WebElement searchKinds;//ä¸‹æ‹‰åˆ—è¡¨
 	
 	@FindBy(name = "state")
-	public WebElement state;//³öÊÛÖĞ
+	public WebElement state;//å‡ºå”®ä¸­
 	
 	@FindBy(name = "isbest")
-	public WebElement isbest;//ÍÆ¼öÉÌÆ·
+	public WebElement isbest;//æ¨èå•†å“
 	
 	@FindBy(name = "ishot")
-	public WebElement ishot;//ÈÈÏúÉÌÆ·
+	public WebElement ishot;//çƒ­é”€å•†å“
 	
 	@FindBy(className = "btn btn-purple btn-sm")
-	public WebElement SearchButton;//ËÑË÷°´Å¥
+	public WebElement searchButton;//æœç´¢æŒ‰é’®
 	
-	/*****************************************************************/
-	@FindBy(linkText = "²é¿´")
-	public WebElement chakan;//²é¿´Á´½Ó
+	@FindBy(xpath = "//*[@id='sample-table-1']/tbody/tr[1]/td[8]/div/a[1]/i")
+	public WebElement chakan;//æŸ¥çœ‹æŒ‰é’®
 	
-	/*****************************************************************/
-	@FindBy(linkText = "ĞŞ¸Ä")
-	public WebElement xiugai;//ĞŞ¸ÄÁ´½Ó
+	@FindBy(xpath = "//i[contains(.,'ä¿®æ”¹')]")
+	public WebElement xiugai;//ä¿®æ”¹æŒ‰é’®
 	
-	/*****************************************************************/
-	@FindBy(linkText = "Í¼¿â")
-	public WebElement tuku;//Í¼¿âÁ´½Ó
+	@FindBy(xpath = "//i[contains(.,'å›¾åº“')]")
+	public WebElement tuku;//å›¾åº“æŒ‰é’®
 	
-	/*****************************************************************/
-	@FindBy(linkText = "É¾³ı")
-	public WebElement delete;//É¾³ıÁ´½Ó
+	
+	
+	
+	
+	
+	
+	
+	
 	
 }

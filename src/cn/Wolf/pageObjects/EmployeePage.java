@@ -4,40 +4,51 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-
+/**
+ * 
+ * @author å¼ ä½³æµ©
+ *
+ */
 public class EmployeePage {
 	public EmployeePage (WebDriver driver){
 		PageFactory.initElements(driver, this);
 	}
 	
+	@FindBy(xpath = "//*[@id='sidebar']/ul/li[1]/ul/li[1]/a")
+	public WebElement sonButton;//å‘˜å·¥åˆ—è¡¨æŒ‰é’®
+	
+	@FindBy(xpath = "//*[@id='sidebar']/ul/li[1]/a") 
+	public WebElement leftButton;//ç”¨æˆ·ç®¡ç†æŒ‰é’®
+	
 	@FindBy(className = "username_search")
-	public WebElement username_search;//ÓÃ»§ÃûËÑË÷¿ò
+	public WebElement username_search;//ç”¨æˆ·åè¾“å…¥æ¡†
 	
 	@FindBy(name = "state")
-	public WebElement state;//×´Ì¬ÏÂÀ­ÁĞ±í
+	public WebElement state;//çŠ¶æ€ä¸‹æ‹‰åˆ—è¡¨
 	
-	@FindBy(className = "btn btn-purple btn-sm")
-	public WebElement SearchButton;//ËÑË÷°´Å¥
+	@FindBy(xpath = "//button[contains(.,'Search')]")
+	public WebElement SearchButton;//æœç´¢æŒ‰é’®
 	
-	/*****************************************************************/
-	@FindBy(linkText = "Ìí¼ÓÔ±¹¤")
-	public WebElement addEmployee;//Ìí¼ÓÔ±¹¤Á´½Ó
 	
 	/*****************************************************************/
-	@FindBy(linkText = "±à¼­")
-	public WebElement bianji;//±à¼­Á´½Ó
+	@FindBy(linkText = "æ·»åŠ å‘˜å·¥")
+	public WebElement addEmployee;//æ·»åŠ å‘˜å·¥
 	
 	/*****************************************************************/
-	@FindBy(linkText = "ĞŞ¸ÄÃÜÂë")
-	public WebElement xiugaimima;//ĞŞ¸ÄÃÜÂëÁ´½Ó
+	@FindBy(linkText = "ç¼–è¾‘")
+	public WebElement bianji;//ç¼–è¾‘æŒ‰é’®
 	
 	/*****************************************************************/
-	@FindBy(linkText = "²é¿´×é")
-	public WebElement chakanzu;//²é¿´×éÁ´½Ó
+	@FindBy(linkText = "ä¿®æ”¹å¯†ç ")
+	public WebElement xiugaimima;//ä¿®æ”¹å¯†ç 
 	
 	/*****************************************************************/
-	@FindBy(linkText = "É¾³ı")
-	public WebElement delete;//É¾³ıÁ´½Ó
+	@FindBy(linkText = "æŸ¥çœ‹ç»„")
+	public WebElement chakanzu;//æŸ¥çœ‹ç»„
+	
+	/*****************************************************************/
+	@FindBy(linkText = "åˆ é™¤")
+	public WebElement delete;//åˆ é™¤
 	
 	
 	
