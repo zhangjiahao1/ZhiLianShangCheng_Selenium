@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="11" passed="10">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="128342" started-at="2016-11-24T01:27:39Z" finished-at="2016-11-24T01:29:47Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="128342" started-at="2016-11-24T01:27:39Z" finished-at="2016-11-24T01:29:47Z">
+      <class name="cn.Wolf.testScripts.FrontSearchTest">
+        <test-method status="PASS" signature="doBeforeMethod()[pri:0, instance:cn.Wolf.testScripts.FrontSearchTest@476374f1]" name="doBeforeMethod" is-config="true" duration-ms="5326" started-at="2016-11-24T09:27:39Z" finished-at="2016-11-24T09:27:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBeforeMethod -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:cn.Wolf.testScripts.FrontSearchTest@476374f1]" name="loginTest" is-config="true" duration-ms="12858" started-at="2016-11-24T09:27:44Z" finished-at="2016-11-24T09:27:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="bigpictureTest()[pri:0, instance:cn.Wolf.testScripts.FrontSearchTest@476374f1]" name="bigpictureTest" duration-ms="98" started-at="2016-11-24T09:27:57Z" finished-at="2016-11-24T09:27:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bigpictureTest -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:cn.Wolf.testScripts.FrontSearchTest@476374f1]" name="loginTest" is-config="true" duration-ms="8561" started-at="2016-11-24T09:27:57Z" finished-at="2016-11-24T09:28:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="brandTest()[pri:0, instance:cn.Wolf.testScripts.FrontSearchTest@476374f1]" name="brandTest" duration-ms="41" started-at="2016-11-24T09:28:05Z" finished-at="2016-11-24T09:28:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- brandTest -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:cn.Wolf.testScripts.FrontSearchTest@476374f1]" name="loginTest" is-config="true" duration-ms="12279" started-at="2016-11-24T09:28:05Z" finished-at="2016-11-24T09:28:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="fashionwomenTest()[pri:0, instance:cn.Wolf.testScripts.FrontSearchTest@476374f1]" name="fashionwomenTest" duration-ms="3398" started-at="2016-11-24T09:28:18Z" finished-at="2016-11-24T09:28:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fashionwomenTest -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:cn.Wolf.testScripts.FrontSearchTest@476374f1]" name="loginTest" is-config="true" duration-ms="6559" started-at="2016-11-24T09:28:21Z" finished-at="2016-11-24T09:28:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="friendshiplinkTest()[pri:0, instance:cn.Wolf.testScripts.FrontSearchTest@476374f1]" name="friendshiplinkTest" duration-ms="3370" started-at="2016-11-24T09:28:28Z" finished-at="2016-11-24T09:28:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- friendshiplinkTest -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:cn.Wolf.testScripts.FrontSearchTest@476374f1]" name="loginTest" is-config="true" duration-ms="6923" started-at="2016-11-24T09:28:31Z" finished-at="2016-11-24T09:28:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="hotsearchTest()[pri:0, instance:cn.Wolf.testScripts.FrontSearchTest@476374f1]" name="hotsearchTest" duration-ms="3592" started-at="2016-11-24T09:28:38Z" finished-at="2016-11-24T09:28:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hotsearchTest -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:cn.Wolf.testScripts.FrontSearchTest@476374f1]" name="loginTest" is-config="true" duration-ms="6688" started-at="2016-11-24T09:28:42Z" finished-at="2016-11-24T09:28:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="huntersTest()[pri:0, instance:cn.Wolf.testScripts.FrontSearchTest@476374f1]" name="huntersTest" duration-ms="3576" started-at="2016-11-24T09:28:48Z" finished-at="2016-11-24T09:28:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- huntersTest -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:cn.Wolf.testScripts.FrontSearchTest@476374f1]" name="loginTest" is-config="true" duration-ms="6962" started-at="2016-11-24T09:28:52Z" finished-at="2016-11-24T09:28:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="likeTest()[pri:0, instance:cn.Wolf.testScripts.FrontSearchTest@476374f1]" name="likeTest" duration-ms="3820" started-at="2016-11-24T09:28:59Z" finished-at="2016-11-24T09:29:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- likeTest -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:cn.Wolf.testScripts.FrontSearchTest@476374f1]" name="loginTest" is-config="true" duration-ms="6970" started-at="2016-11-24T09:29:03Z" finished-at="2016-11-24T09:29:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="FAIL" signature="navigationTest()[pri:0, instance:cn.Wolf.testScripts.FrontSearchTest@476374f1]" name="navigationTest" duration-ms="3651" started-at="2016-11-24T09:29:10Z" finished-at="2016-11-24T09:29:13Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[[object Object]'[object Object]' when calling method: [nsICommandProcessor::execute]
+Command duration or timeout: 55 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'fan-dell', ip: '10.7.90.10', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.7.0_79'
+Session ID: e0dfa6b0-70be-4bcf-8114-8c4568ae9384
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=39.0}]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: [object Object]'[object Object]' when calling method: [nsICommandProcessor::execute]
+Command duration or timeout: 55 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'fan-dell', ip: '10.7.90.10', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.7.0_79'
+Session ID: e0dfa6b0-70be-4bcf-8114-8c4568ae9384
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=39.0}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:701)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.back(RemoteWebDriver.java:961)
+	at cn.Wolf.cores.WebDriverEngine.goBack(WebDriverEngine.java:308)
+	at cn.Wolf.testScripts.FrontSearchTest.navigationTest(FrontSearchTest.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:152)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)
+Caused by: org.openqa.selenium.WebDriverException: [object Object]'[object Object]' when calling method: [nsICommandProcessor::execute]
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'fan-dell', ip: '10.7.90.10', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.7.0_79'
+Driver info: driver.version: unknown
+	at <anonymous class>.Dispatcher.executeAs/<(file:///C:/Users/qdell/AppData/Local/Temp/anonymous1035822542876297704webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:9558)
+	at <anonymous class>.Resource.prototype.handle(file:///C:/Users/qdell/AppData/Local/Temp/anonymous1035822542876297704webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:9705)
+	at <anonymous class>.Dispatcher.prototype.dispatch(file:///C:/Users/qdell/AppData/Local/Temp/anonymous1035822542876297704webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:9652)
+	at <anonymous class>.WebDriverServer/<.handle(file:///C:/Users/qdell/AppData/Local/Temp/anonymous1035822542876297704webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:12517)
+	at <anonymous class>.createHandlerFunc/<(file:///C:/Users/qdell/AppData/Local/Temp/anonymous1035822542876297704webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:2054)
+	at <anonymous class>.ServerHandler.prototype.handleResponse(file:///C:/Users/qdell/AppData/Local/Temp/anonymous1035822542876297704webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:2387)
+	at <anonymous class>.Connection.prototype.process(file:///C:/Users/qdell/AppData/Local/Temp/anonymous1035822542876297704webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:1223)
+	at <anonymous class>.RequestReader.prototype._handleResponse(file:///C:/Users/qdell/AppData/Local/Temp/anonymous1035822542876297704webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:1677)
+	at <anonymous class>.RequestReader.prototype._processBody(file:///C:/Users/qdell/AppData/Local/Temp/anonymous1035822542876297704webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:1525)
+	at <anonymous class>.RequestReader.prototype.onInputStreamReady(file:///C:/Users/qdell/AppData/Local/Temp/anonymous1035822542876297704webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:1393)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigationTest -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:cn.Wolf.testScripts.FrontSearchTest@476374f1]" name="loginTest" is-config="true" duration-ms="7211" started-at="2016-11-24T09:29:13Z" finished-at="2016-11-24T09:29:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="recommendTest()[pri:0, instance:cn.Wolf.testScripts.FrontSearchTest@476374f1]" name="recommendTest" duration-ms="3597" started-at="2016-11-24T09:29:20Z" finished-at="2016-11-24T09:29:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- recommendTest -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:cn.Wolf.testScripts.FrontSearchTest@476374f1]" name="loginTest" is-config="true" duration-ms="7798" started-at="2016-11-24T09:29:24Z" finished-at="2016-11-24T09:29:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="searchboxTest()[pri:0, instance:cn.Wolf.testScripts.FrontSearchTest@476374f1]" name="searchboxTest" duration-ms="3903" started-at="2016-11-24T09:29:32Z" finished-at="2016-11-24T09:29:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchboxTest -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:cn.Wolf.testScripts.FrontSearchTest@476374f1]" name="loginTest" is-config="true" duration-ms="5465" started-at="2016-11-24T09:29:36Z" finished-at="2016-11-24T09:29:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="specialTest()[pri:0, instance:cn.Wolf.testScripts.FrontSearchTest@476374f1]" name="specialTest" duration-ms="3569" started-at="2016-11-24T09:29:41Z" finished-at="2016-11-24T09:29:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- specialTest -->
+        <test-method status="PASS" signature="doAfterMethod()[pri:0, instance:cn.Wolf.testScripts.FrontSearchTest@476374f1]" name="doAfterMethod" is-config="true" duration-ms="2037" started-at="2016-11-24T09:29:45Z" finished-at="2016-11-24T09:29:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterMethod -->
+      </class> <!-- cn.Wolf.testScripts.FrontSearchTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

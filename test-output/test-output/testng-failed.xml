@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="cn.Wolf.utils.TestListener"/>
+  </listeners>
+  <test name="登录测试用例：数据驱动(failed)">
+    <classes>
+      <class name="cn.Wolf.testScripts.AuthorityTest">
+        <methods>
+          <include name="testfourteen"/>
+          <include name="testtwelve"/>
+          <include name="testseven"/>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+          <include name="testfiveteen"/>
+          <include name="testnineteen"/>
+          <include name="testseventeen"/>
+          <include name="testfour"/>
+          <include name="testnine"/>
+          <include name="testfive"/>
+          <include name="testtwo"/>
+          <include name="testeighteen"/>
+          <include name="testten"/>
+          <include name="testtwenty"/>
+          <include name="testone"/>
+          <include name="testeleven"/>
+          <include name="testsixteen"/>
+          <include name="testtwentyone"/>
+          <include name="testeight"/>
+          <include name="testsix"/>
+          <include name="testthree"/>
+        </methods>
+      </class> <!-- cn.Wolf.testScripts.AuthorityTest -->
+    </classes>
+  </test> <!-- 登录测试用例：数据驱动(failed) -->
+</suite> <!-- Failed suite [Suite] -->

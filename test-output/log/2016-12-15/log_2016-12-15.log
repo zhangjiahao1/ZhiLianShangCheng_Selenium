@@ -1,0 +1,175 @@
+[2016-12-15 14:31:03,662] INFO  cn.Wolf.utils.Log 发送邮件成功！
+[2016-12-15 15:34:05,444] INFO  cn.Wolf.utils.Log Using Firefox
+[2016-12-15 15:34:05,447] INFO  cn.Wolf.utils.Log firefox
+[2016-12-15 15:34:06,025] INFO  cn.Wolf.utils.Log 测试用例:null---start
+[2016-12-15 15:34:09,657] INFO  cn.Wolf.utils.Log Opened url http://localhost:8032/zl_shop/index.php
+[2016-12-15 15:34:18,543] INFO  cn.Wolf.utils.Log 测试用例: null--passed
+[2016-12-15 15:34:18,550] INFO  cn.Wolf.utils.Log 测试用例:null---end
+[2016-12-15 15:34:18,564] INFO  cn.Wolf.utils.Log 测试用例:null---start
+[2016-12-15 15:34:21,900] INFO  cn.Wolf.utils.Log Opened url http://localhost:8032/zl_shop/index.php
+[2016-12-15 15:34:22,891] INFO  cn.Wolf.utils.Log org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"link text","selector":"登录"}
+Command duration or timeout: 983 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'zjh', ip: '10.7.90.33', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: f9533491-3169-4869-bffa-e946dca7af06
+*** Element info: {Using=link text, value=登录}
+[2016-12-15 15:34:22,905] INFO  cn.Wolf.utils.Log org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"id","selector":"username"}
+Command duration or timeout: 7 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'zjh', ip: '10.7.90.33', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: f9533491-3169-4869-bffa-e946dca7af06
+*** Element info: {Using=id, value=username}
+[2016-12-15 15:34:22,915] INFO  cn.Wolf.utils.Log org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"id","selector":"password"}
+Command duration or timeout: 9 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'zjh', ip: '10.7.90.33', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: f9533491-3169-4869-bffa-e946dca7af06
+*** Element info: {Using=id, value=password}
+[2016-12-15 15:34:22,927] INFO  cn.Wolf.utils.Log org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"class name","selector":"sub"}
+Command duration or timeout: 11 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'zjh', ip: '10.7.90.33', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: f9533491-3169-4869-bffa-e946dca7af06
+*** Element info: {Using=class name, value=sub}
+[2016-12-15 15:34:24,938] INFO  cn.Wolf.utils.Log 测试用例: null--passed
+[2016-12-15 15:34:24,939] INFO  cn.Wolf.utils.Log 测试用例:null---end
+[2016-12-15 15:34:24,945] INFO  cn.Wolf.utils.Log 测试用例:null---start
+[2016-12-15 15:34:28,427] INFO  cn.Wolf.utils.Log Opened url http://localhost:8032/zl_shop/index.php
+[2016-12-15 15:34:29,426] INFO  cn.Wolf.utils.Log org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"link text","selector":"登录"}
+Command duration or timeout: 997 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'zjh', ip: '10.7.90.33', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: f9533491-3169-4869-bffa-e946dca7af06
+*** Element info: {Using=link text, value=登录}
+[2016-12-15 15:34:29,435] INFO  cn.Wolf.utils.Log org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"id","selector":"username"}
+Command duration or timeout: 8 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'zjh', ip: '10.7.90.33', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: f9533491-3169-4869-bffa-e946dca7af06
+*** Element info: {Using=id, value=username}
+[2016-12-15 15:34:29,445] INFO  cn.Wolf.utils.Log org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"id","selector":"password"}
+Command duration or timeout: 9 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'zjh', ip: '10.7.90.33', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: f9533491-3169-4869-bffa-e946dca7af06
+*** Element info: {Using=id, value=password}
+[2016-12-15 15:34:29,454] INFO  cn.Wolf.utils.Log org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"class name","selector":"sub"}
+Command duration or timeout: 8 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'zjh', ip: '10.7.90.33', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: f9533491-3169-4869-bffa-e946dca7af06
+*** Element info: {Using=class name, value=sub}
+[2016-12-15 15:34:31,462] INFO  cn.Wolf.utils.Log 测试用例: null--passed
+[2016-12-15 15:34:31,467] INFO  cn.Wolf.utils.Log 测试用例:null---end
+[2016-12-15 15:34:32,092] INFO  cn.Wolf.utils.Log Quitted Browser
+[2016-12-15 15:41:17,274] INFO  cn.Wolf.utils.Log Using Firefox
+[2016-12-15 15:41:17,276] INFO  cn.Wolf.utils.Log firefox
+[2016-12-15 15:41:17,865] INFO  cn.Wolf.utils.Log 测试用例:null---start
+[2016-12-15 15:41:21,685] INFO  cn.Wolf.utils.Log Opened url http://localhost:8032/zl_shop/index.php
+[2016-12-15 15:41:30,694] INFO  cn.Wolf.utils.Log 测试用例: null--passed
+[2016-12-15 15:41:30,696] INFO  cn.Wolf.utils.Log 测试用例:null---end
+[2016-12-15 15:41:30,701] INFO  cn.Wolf.utils.Log 测试用例:null---start
+[2016-12-15 15:41:34,141] INFO  cn.Wolf.utils.Log Opened url http://localhost:8032/zl_shop/index.php
+[2016-12-15 15:41:35,140] INFO  cn.Wolf.utils.Log org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"link text","selector":"登录"}
+Command duration or timeout: 990 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'zjh', ip: '10.7.90.33', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 1bcfdf79-8a12-40ac-8b04-3599a463f324
+*** Element info: {Using=link text, value=登录}
+[2016-12-15 15:41:35,150] INFO  cn.Wolf.utils.Log org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"id","selector":"username"}
+Command duration or timeout: 8 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'zjh', ip: '10.7.90.33', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 1bcfdf79-8a12-40ac-8b04-3599a463f324
+*** Element info: {Using=id, value=username}
+[2016-12-15 15:41:35,159] INFO  cn.Wolf.utils.Log org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"id","selector":"password"}
+Command duration or timeout: 8 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'zjh', ip: '10.7.90.33', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 1bcfdf79-8a12-40ac-8b04-3599a463f324
+*** Element info: {Using=id, value=password}
+[2016-12-15 15:41:35,172] INFO  cn.Wolf.utils.Log org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"class name","selector":"sub"}
+Command duration or timeout: 11 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'zjh', ip: '10.7.90.33', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 1bcfdf79-8a12-40ac-8b04-3599a463f324
+*** Element info: {Using=class name, value=sub}
+[2016-12-15 15:41:37,180] INFO  cn.Wolf.utils.Log 测试用例: null--passed
+[2016-12-15 15:41:37,181] INFO  cn.Wolf.utils.Log 测试用例:null---end
+[2016-12-15 15:41:37,184] INFO  cn.Wolf.utils.Log 测试用例:null---start
+[2016-12-15 15:41:40,556] INFO  cn.Wolf.utils.Log Opened url http://localhost:8032/zl_shop/index.php
+[2016-12-15 15:41:41,557] INFO  cn.Wolf.utils.Log org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"link text","selector":"登录"}
+Command duration or timeout: 999 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'zjh', ip: '10.7.90.33', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 1bcfdf79-8a12-40ac-8b04-3599a463f324
+*** Element info: {Using=link text, value=登录}
+[2016-12-15 15:41:41,566] INFO  cn.Wolf.utils.Log org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"id","selector":"username"}
+Command duration or timeout: 7 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'zjh', ip: '10.7.90.33', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 1bcfdf79-8a12-40ac-8b04-3599a463f324
+*** Element info: {Using=id, value=username}
+[2016-12-15 15:41:41,575] INFO  cn.Wolf.utils.Log org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"id","selector":"password"}
+Command duration or timeout: 8 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'zjh', ip: '10.7.90.33', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 1bcfdf79-8a12-40ac-8b04-3599a463f324
+*** Element info: {Using=id, value=password}
+[2016-12-15 15:41:41,583] INFO  cn.Wolf.utils.Log org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"class name","selector":"sub"}
+Command duration or timeout: 7 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'zjh', ip: '10.7.90.33', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 1bcfdf79-8a12-40ac-8b04-3599a463f324
+*** Element info: {Using=class name, value=sub}
+[2016-12-15 15:41:43,593] INFO  cn.Wolf.utils.Log 测试用例: null--passed
+[2016-12-15 15:41:43,596] INFO  cn.Wolf.utils.Log 测试用例:null---end
+[2016-12-15 15:41:44,257] INFO  cn.Wolf.utils.Log Quitted Browser

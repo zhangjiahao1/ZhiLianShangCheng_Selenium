@@ -1,0 +1,595 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="个人信息|收获地址(failed)">
+    <classes>
+      <class name="cn.Wolf.testScripts.FrontMyOrderTest">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- cn.Wolf.testScripts.FrontMyOrderTest -->
+      <class name="cn.Wolf.testScripts.BackPresentationDiagramTest">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- cn.Wolf.testScripts.BackPresentationDiagramTest -->
+      <class name="cn.Wolf.testScripts.RegisterTest">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- cn.Wolf.testScripts.RegisterTest -->
+      <class name="cn.Wolf.testScripts.FrontBalanceTest">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- cn.Wolf.testScripts.FrontBalanceTest -->
+      <class name="cn.Wolf.testScripts.EmployeeTest">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- cn.Wolf.testScripts.EmployeeTest -->
+      <class name="cn.Wolf.testScripts.Mdse">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- cn.Wolf.testScripts.Mdse -->
+      <class name="cn.Wolf.testScripts.Shopcar">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+          <include name="Shopcar"/>
+        </methods>
+      </class> <!-- cn.Wolf.testScripts.Shopcar -->
+      <class name="cn.Wolf.testScripts.FrontReceiptAddressTest">
+        <methods>
+          <include name="addAddressTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- cn.Wolf.testScripts.FrontReceiptAddressTest -->
+      <class name="cn.Wolf.testScripts.BackOrderTest">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- cn.Wolf.testScripts.BackOrderTest -->
+      <class name="cn.Wolf.testScripts.FrontSearchTest">
+        <methods>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- cn.Wolf.testScripts.FrontSearchTest -->
+      <class name="cn.Wolf.testScripts.EvaluateTest">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- cn.Wolf.testScripts.EvaluateTest -->
+      <class name="cn.Wolf.testScripts.FrontPersonalInformationTest">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- cn.Wolf.testScripts.FrontPersonalInformationTest -->
+      <class name="cn.Wolf.testScripts.BackAuthorityTest">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- cn.Wolf.testScripts.BackAuthorityTest -->
+    </classes>
+  </test> <!-- 个人信息|收获地址(failed) -->
+  <test name="搜索模块用例|我的订单模块用例(failed)">
+    <classes>
+      <class name="cn.Wolf.testScripts.FrontMyOrderTest">
+        <methods>
+          <include name="shopTest"/>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- cn.Wolf.testScripts.FrontMyOrderTest -->
+      <class name="cn.Wolf.testScripts.BackPresentationDiagramTest">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- cn.Wolf.testScripts.BackPresentationDiagramTest -->
+      <class name="cn.Wolf.testScripts.RegisterTest">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- cn.Wolf.testScripts.RegisterTest -->
+      <class name="cn.Wolf.testScripts.BackOrderTest">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- cn.Wolf.testScripts.BackOrderTest -->
+      <class name="cn.Wolf.testScripts.FrontBalanceTest">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- cn.Wolf.testScripts.FrontBalanceTest -->
+      <class name="cn.Wolf.testScripts.FrontSearchTest">
+        <methods>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- cn.Wolf.testScripts.FrontSearchTest -->
+      <class name="cn.Wolf.testScripts.EmployeeTest">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- cn.Wolf.testScripts.EmployeeTest -->
+      <class name="cn.Wolf.testScripts.EvaluateTest">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- cn.Wolf.testScripts.EvaluateTest -->
+      <class name="cn.Wolf.testScripts.Mdse">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- cn.Wolf.testScripts.Mdse -->
+      <class name="cn.Wolf.testScripts.Shopcar">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+          <include name="Shopcar"/>
+        </methods>
+      </class> <!-- cn.Wolf.testScripts.Shopcar -->
+      <class name="cn.Wolf.testScripts.FrontPersonalInformationTest">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- cn.Wolf.testScripts.FrontPersonalInformationTest -->
+      <class name="cn.Wolf.testScripts.BackAuthorityTest">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- cn.Wolf.testScripts.BackAuthorityTest -->
+    </classes>
+  </test> <!-- 搜索模块用例|我的订单模块用例(failed) -->
+  <test name="前台结算模块用例(failed)">
+    <classes>
+      <class name="cn.Wolf.testScripts.FrontMyOrderTest">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- cn.Wolf.testScripts.FrontMyOrderTest -->
+      <class name="cn.Wolf.testScripts.BackPresentationDiagramTest">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- cn.Wolf.testScripts.BackPresentationDiagramTest -->
+      <class name="cn.Wolf.testScripts.RegisterTest">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- cn.Wolf.testScripts.RegisterTest -->
+      <class name="cn.Wolf.testScripts.BackOrderTest">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- cn.Wolf.testScripts.BackOrderTest -->
+      <class name="cn.Wolf.testScripts.FrontBalanceTest">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="test5"/>
+          <include name="doBeforeMethod"/>
+          <include name="test3"/>
+          <include name="DataDriven"/>
+        </methods>
+      </class> <!-- cn.Wolf.testScripts.FrontBalanceTest -->
+      <class name="cn.Wolf.testScripts.FrontSearchTest">
+        <methods>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- cn.Wolf.testScripts.FrontSearchTest -->
+      <class name="cn.Wolf.testScripts.EmployeeTest">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- cn.Wolf.testScripts.EmployeeTest -->
+      <class name="cn.Wolf.testScripts.EvaluateTest">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- cn.Wolf.testScripts.EvaluateTest -->
+      <class name="cn.Wolf.testScripts.Mdse">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- cn.Wolf.testScripts.Mdse -->
+      <class name="cn.Wolf.testScripts.Shopcar">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+          <include name="Shopcar"/>
+        </methods>
+      </class> <!-- cn.Wolf.testScripts.Shopcar -->
+      <class name="cn.Wolf.testScripts.FrontPersonalInformationTest">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- cn.Wolf.testScripts.FrontPersonalInformationTest -->
+      <class name="cn.Wolf.testScripts.BackAuthorityTest">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- cn.Wolf.testScripts.BackAuthorityTest -->
+    </classes>
+  </test> <!-- 前台结算模块用例(failed) -->
+  <test name="公告列表|消息列表|展示图列|表商城信息(failed)">
+    <classes>
+      <class name="cn.Wolf.testScripts.FrontMyOrderTest">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- cn.Wolf.testScripts.FrontMyOrderTest -->
+      <class name="cn.Wolf.testScripts.BackPresentationDiagramTest">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- cn.Wolf.testScripts.BackPresentationDiagramTest -->
+      <class name="cn.Wolf.testScripts.RegisterTest">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- cn.Wolf.testScripts.RegisterTest -->
+      <class name="cn.Wolf.testScripts.FrontBalanceTest">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- cn.Wolf.testScripts.FrontBalanceTest -->
+      <class name="cn.Wolf.testScripts.EmployeeTest">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- cn.Wolf.testScripts.EmployeeTest -->
+      <class name="cn.Wolf.testScripts.Mdse">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- cn.Wolf.testScripts.Mdse -->
+      <class name="cn.Wolf.testScripts.Shopcar">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+          <include name="Shopcar"/>
+        </methods>
+      </class> <!-- cn.Wolf.testScripts.Shopcar -->
+      <class name="cn.Wolf.testScripts.BackOrderTest">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- cn.Wolf.testScripts.BackOrderTest -->
+      <class name="cn.Wolf.testScripts.FrontSearchTest">
+        <methods>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- cn.Wolf.testScripts.FrontSearchTest -->
+      <class name="cn.Wolf.testScripts.BackAnnouncementTest">
+        <methods>
+          <include name="deleteTest"/>
+          <include name="nextPageTest"/>
+        </methods>
+      </class> <!-- cn.Wolf.testScripts.BackAnnouncementTest -->
+      <class name="cn.Wolf.testScripts.EvaluateTest">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- cn.Wolf.testScripts.EvaluateTest -->
+      <class name="cn.Wolf.testScripts.FrontPersonalInformationTest">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- cn.Wolf.testScripts.FrontPersonalInformationTest -->
+      <class name="cn.Wolf.testScripts.BackMessageTest">
+        <methods>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- cn.Wolf.testScripts.BackMessageTest -->
+      <class name="cn.Wolf.testScripts.BackAuthorityTest">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- cn.Wolf.testScripts.BackAuthorityTest -->
+    </classes>
+  </test> <!-- 公告列表|消息列表|展示图列|表商城信息(failed) -->
+  <test name="商品管理(failed)">
+    <classes>
+      <class name="cn.Wolf.testScripts.FrontMyOrderTest">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- cn.Wolf.testScripts.FrontMyOrderTest -->
+      <class name="cn.Wolf.testScripts.BackPresentationDiagramTest">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- cn.Wolf.testScripts.BackPresentationDiagramTest -->
+      <class name="cn.Wolf.testScripts.RegisterTest">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- cn.Wolf.testScripts.RegisterTest -->
+      <class name="cn.Wolf.testScripts.BackOrderTest">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- cn.Wolf.testScripts.BackOrderTest -->
+      <class name="cn.Wolf.testScripts.FrontBalanceTest">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- cn.Wolf.testScripts.FrontBalanceTest -->
+      <class name="cn.Wolf.testScripts.FrontSearchTest">
+        <methods>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- cn.Wolf.testScripts.FrontSearchTest -->
+      <class name="cn.Wolf.testScripts.EmployeeTest">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- cn.Wolf.testScripts.EmployeeTest -->
+      <class name="cn.Wolf.testScripts.EvaluateTest">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- cn.Wolf.testScripts.EvaluateTest -->
+      <class name="cn.Wolf.testScripts.Mdse">
+        <methods>
+          <include name="category2"/>
+          <include name="doAfterMethod"/>
+          <include name="Brandreise"/>
+          <include name="doBeforeMethod"/>
+          <include name="Brandadd"/>
+          <include name="category"/>
+          <include name="qualityreise"/>
+          <include name="qualityadd"/>
+        </methods>
+      </class> <!-- cn.Wolf.testScripts.Mdse -->
+      <class name="cn.Wolf.testScripts.Shopcar">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+          <include name="Shopcar"/>
+        </methods>
+      </class> <!-- cn.Wolf.testScripts.Shopcar -->
+      <class name="cn.Wolf.testScripts.FrontPersonalInformationTest">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- cn.Wolf.testScripts.FrontPersonalInformationTest -->
+      <class name="cn.Wolf.testScripts.BackAuthorityTest">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- cn.Wolf.testScripts.BackAuthorityTest -->
+    </classes>
+  </test> <!-- 商品管理(failed) -->
+  <test name="订单管理|评价管理(failed)">
+    <classes>
+      <class name="cn.Wolf.testScripts.FrontMyOrderTest">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- cn.Wolf.testScripts.FrontMyOrderTest -->
+      <class name="cn.Wolf.testScripts.BackPresentationDiagramTest">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- cn.Wolf.testScripts.BackPresentationDiagramTest -->
+      <class name="cn.Wolf.testScripts.RegisterTest">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- cn.Wolf.testScripts.RegisterTest -->
+      <class name="cn.Wolf.testScripts.FrontBalanceTest">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- cn.Wolf.testScripts.FrontBalanceTest -->
+      <class name="cn.Wolf.testScripts.EmployeeTest">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- cn.Wolf.testScripts.EmployeeTest -->
+      <class name="cn.Wolf.testScripts.Mdse">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- cn.Wolf.testScripts.Mdse -->
+      <class name="cn.Wolf.testScripts.Shopcar">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+          <include name="Shopcar"/>
+        </methods>
+      </class> <!-- cn.Wolf.testScripts.Shopcar -->
+      <class name="cn.Wolf.testScripts.BackCommentTest">
+        <methods>
+          <include name="checkbox"/>
+          <include name="commentdelete"/>
+        </methods>
+      </class> <!-- cn.Wolf.testScripts.BackCommentTest -->
+      <class name="cn.Wolf.testScripts.BackOrderTest">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- cn.Wolf.testScripts.BackOrderTest -->
+      <class name="cn.Wolf.testScripts.FrontSearchTest">
+        <methods>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- cn.Wolf.testScripts.FrontSearchTest -->
+      <class name="cn.Wolf.testScripts.EvaluateTest">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- cn.Wolf.testScripts.EvaluateTest -->
+      <class name="cn.Wolf.testScripts.FrontPersonalInformationTest">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- cn.Wolf.testScripts.FrontPersonalInformationTest -->
+      <class name="cn.Wolf.testScripts.BackAuthorityTest">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- cn.Wolf.testScripts.BackAuthorityTest -->
+    </classes>
+  </test> <!-- 订单管理|评价管理(failed) -->
+  <test name="权限管理(failed)">
+    <classes>
+      <class name="cn.Wolf.testScripts.FrontMyOrderTest">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- cn.Wolf.testScripts.FrontMyOrderTest -->
+      <class name="cn.Wolf.testScripts.BackPresentationDiagramTest">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- cn.Wolf.testScripts.BackPresentationDiagramTest -->
+      <class name="cn.Wolf.testScripts.RegisterTest">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- cn.Wolf.testScripts.RegisterTest -->
+      <class name="cn.Wolf.testScripts.BackOrderTest">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- cn.Wolf.testScripts.BackOrderTest -->
+      <class name="cn.Wolf.testScripts.FrontBalanceTest">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- cn.Wolf.testScripts.FrontBalanceTest -->
+      <class name="cn.Wolf.testScripts.FrontSearchTest">
+        <methods>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- cn.Wolf.testScripts.FrontSearchTest -->
+      <class name="cn.Wolf.testScripts.EmployeeTest">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- cn.Wolf.testScripts.EmployeeTest -->
+      <class name="cn.Wolf.testScripts.EvaluateTest">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- cn.Wolf.testScripts.EvaluateTest -->
+      <class name="cn.Wolf.testScripts.Mdse">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- cn.Wolf.testScripts.Mdse -->
+      <class name="cn.Wolf.testScripts.Shopcar">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+          <include name="Shopcar"/>
+        </methods>
+      </class> <!-- cn.Wolf.testScripts.Shopcar -->
+      <class name="cn.Wolf.testScripts.FrontPersonalInformationTest">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- cn.Wolf.testScripts.FrontPersonalInformationTest -->
+      <class name="cn.Wolf.testScripts.BackAuthorityTest">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+          <include name="testfour"/>
+          <include name="testnine"/>
+          <include name="testfiveteen"/>
+          <include name="testnineteen"/>
+          <include name="testten"/>
+          <include name="testseventeen"/>
+          <include name="testeighteen" invocation-numbers="0"/>
+          <include name="testone"/>
+          <include name="testtwo"/>
+          <include name="testfourteen"/>
+          <include name="testtwelve"/>
+          <include name="testeight"/>
+          <include name="testsix"/>
+          <include name="testthree"/>
+          <include name="testseven"/>
+          <include name="testfive"/>
+          <include name="testtwenty"/>
+          <include name="testeleven"/>
+          <include name="testsixteen"/>
+          <include name="testtwentyone"/>
+        </methods>
+      </class> <!-- cn.Wolf.testScripts.BackAuthorityTest -->
+    </classes>
+  </test> <!-- 权限管理(failed) -->
+</suite> <!-- Failed suite [Suite] -->

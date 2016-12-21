@@ -1,0 +1,52 @@
+<h2>Methods run, sorted chronologically</h2><h3>&gt;&gt; means before, &lt;&lt; means after</h3><p/><br/><em>Default suite</em><p/><small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table border="1">
+<tr><th>Time</th><th>Delta (ms)</th><th>Suite<br>configuration</th><th>Test<br>configuration</th><th>Class<br>configuration</th><th>Groups<br>configuration</th><th>Method<br>configuration</th><th>Test<br>method</th><th>Thread</th><th>Instances</th></tr>
+<tr bgcolor="e892fd">  <td>16/11/24 09:27:57</td>   <td>0</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="FrontSearchTest.bigpictureTest()[pri:0, instance:cn.Wolf.testScripts.FrontSearchTest@476374f1]">bigpictureTest</td> 
+  <td>main@594362334</td>   <td></td> </tr>
+<tr bgcolor="e892fd">  <td>16/11/24 09:28:05</td>   <td>8663</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="FrontSearchTest.brandTest()[pri:0, instance:cn.Wolf.testScripts.FrontSearchTest@476374f1]">brandTest</td> 
+  <td>main@594362334</td>   <td></td> </tr>
+<tr bgcolor="c788d3">  <td>16/11/24 09:29:45</td>   <td>108107</td> <td>&nbsp;</td><td title="&lt;&lt;BaseTest.doAfterMethod()[pri:0, instance:cn.Wolf.testScripts.FrontSearchTest@476374f1]">&lt;&lt;doAfterMethod</td> 
+<td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>  <td>main@594362334</td>   <td></td> </tr>
+<tr bgcolor="c788d3">  <td>16/11/24 09:27:39</td>   <td>-18191</td> <td>&nbsp;</td><td title="&gt;&gt;BaseTest.doBeforeMethod()[pri:0, instance:cn.Wolf.testScripts.FrontSearchTest@476374f1]">&gt;&gt;doBeforeMethod</td> 
+<td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>  <td>main@594362334</td>   <td></td> </tr>
+<tr bgcolor="e892fd">  <td>16/11/24 09:28:18</td>   <td>20987</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="FrontSearchTest.fashionwomenTest()[pri:0, instance:cn.Wolf.testScripts.FrontSearchTest@476374f1]">fashionwomenTest</td> 
+  <td>main@594362334</td>   <td></td> </tr>
+<tr bgcolor="e892fd">  <td>16/11/24 09:28:28</td>   <td>30948</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="FrontSearchTest.friendshiplinkTest()[pri:0, instance:cn.Wolf.testScripts.FrontSearchTest@476374f1]">friendshiplinkTest</td> 
+  <td>main@594362334</td>   <td></td> </tr>
+<tr bgcolor="e892fd">  <td>16/11/24 09:28:38</td>   <td>41247</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="FrontSearchTest.hotsearchTest()[pri:0, instance:cn.Wolf.testScripts.FrontSearchTest@476374f1]">hotsearchTest</td> 
+  <td>main@594362334</td>   <td></td> </tr>
+<tr bgcolor="e892fd">  <td>16/11/24 09:28:48</td>   <td>51535</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="FrontSearchTest.huntersTest()[pri:0, instance:cn.Wolf.testScripts.FrontSearchTest@476374f1]">huntersTest</td> 
+  <td>main@594362334</td>   <td></td> </tr>
+<tr bgcolor="e892fd">  <td>16/11/24 09:28:59</td>   <td>62079</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="FrontSearchTest.likeTest()[pri:0, instance:cn.Wolf.testScripts.FrontSearchTest@476374f1]">likeTest</td> 
+  <td>main@594362334</td>   <td></td> </tr>
+<tr bgcolor="e892fd">  <td>16/11/24 09:27:44</td>   <td>-12857</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&gt;&gt;FrontSearchTest.loginTest()[pri:0, instance:cn.Wolf.testScripts.FrontSearchTest@476374f1]">&gt;&gt;loginTest</td> 
+<td>&nbsp;</td>  <td>main@594362334</td>   <td></td> </tr>
+<tr bgcolor="e892fd">  <td>16/11/24 09:27:57</td>   <td>102</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&gt;&gt;FrontSearchTest.loginTest()[pri:0, instance:cn.Wolf.testScripts.FrontSearchTest@476374f1]">&gt;&gt;loginTest</td> 
+<td>&nbsp;</td>  <td>main@594362334</td>   <td></td> </tr>
+<tr bgcolor="e892fd">  <td>16/11/24 09:28:05</td>   <td>8709</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&gt;&gt;FrontSearchTest.loginTest()[pri:0, instance:cn.Wolf.testScripts.FrontSearchTest@476374f1]">&gt;&gt;loginTest</td> 
+<td>&nbsp;</td>  <td>main@594362334</td>   <td></td> </tr>
+<tr bgcolor="e892fd">  <td>16/11/24 09:28:21</td>   <td>24389</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&gt;&gt;FrontSearchTest.loginTest()[pri:0, instance:cn.Wolf.testScripts.FrontSearchTest@476374f1]">&gt;&gt;loginTest</td> 
+<td>&nbsp;</td>  <td>main@594362334</td>   <td></td> </tr>
+<tr bgcolor="e892fd">  <td>16/11/24 09:28:31</td>   <td>34325</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&gt;&gt;FrontSearchTest.loginTest()[pri:0, instance:cn.Wolf.testScripts.FrontSearchTest@476374f1]">&gt;&gt;loginTest</td> 
+<td>&nbsp;</td>  <td>main@594362334</td>   <td></td> </tr>
+<tr bgcolor="e892fd">  <td>16/11/24 09:28:42</td>   <td>44847</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&gt;&gt;FrontSearchTest.loginTest()[pri:0, instance:cn.Wolf.testScripts.FrontSearchTest@476374f1]">&gt;&gt;loginTest</td> 
+<td>&nbsp;</td>  <td>main@594362334</td>   <td></td> </tr>
+<tr bgcolor="e892fd">  <td>16/11/24 09:28:52</td>   <td>55117</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&gt;&gt;FrontSearchTest.loginTest()[pri:0, instance:cn.Wolf.testScripts.FrontSearchTest@476374f1]">&gt;&gt;loginTest</td> 
+<td>&nbsp;</td>  <td>main@594362334</td>   <td></td> </tr>
+<tr bgcolor="e892fd">  <td>16/11/24 09:29:03</td>   <td>65906</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&gt;&gt;FrontSearchTest.loginTest()[pri:0, instance:cn.Wolf.testScripts.FrontSearchTest@476374f1]">&gt;&gt;loginTest</td> 
+<td>&nbsp;</td>  <td>main@594362334</td>   <td></td> </tr>
+<tr bgcolor="e892fd">  <td>16/11/24 09:29:13</td>   <td>76547</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&gt;&gt;FrontSearchTest.loginTest()[pri:0, instance:cn.Wolf.testScripts.FrontSearchTest@476374f1]">&gt;&gt;loginTest</td> 
+<td>&nbsp;</td>  <td>main@594362334</td>   <td></td> </tr>
+<tr bgcolor="e892fd">  <td>16/11/24 09:29:24</td>   <td>87360</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&gt;&gt;FrontSearchTest.loginTest()[pri:0, instance:cn.Wolf.testScripts.FrontSearchTest@476374f1]">&gt;&gt;loginTest</td> 
+<td>&nbsp;</td>  <td>main@594362334</td>   <td></td> </tr>
+<tr bgcolor="e892fd">  <td>16/11/24 09:29:36</td>   <td>99064</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&gt;&gt;FrontSearchTest.loginTest()[pri:0, instance:cn.Wolf.testScripts.FrontSearchTest@476374f1]">&gt;&gt;loginTest</td> 
+<td>&nbsp;</td>  <td>main@594362334</td>   <td></td> </tr>
+<tr bgcolor="e892fd">  <td>16/11/24 09:29:10</td>   <td>72875</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="FrontSearchTest.navigationTest()[pri:0, instance:cn.Wolf.testScripts.FrontSearchTest@476374f1]">navigationTest</td> 
+  <td>main@594362334</td>   <td></td> </tr>
+<tr bgcolor="e892fd">  <td>16/11/24 09:29:20</td>   <td>83758</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="FrontSearchTest.recommendTest()[pri:0, instance:cn.Wolf.testScripts.FrontSearchTest@476374f1]">recommendTest</td> 
+  <td>main@594362334</td>   <td></td> </tr>
+<tr bgcolor="e892fd">  <td>16/11/24 09:29:32</td>   <td>95158</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="FrontSearchTest.searchboxTest()[pri:0, instance:cn.Wolf.testScripts.FrontSearchTest@476374f1]">searchboxTest</td> 
+  <td>main@594362334</td>   <td></td> </tr>
+<tr bgcolor="e892fd">  <td>16/11/24 09:29:41</td>   <td>104529</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="FrontSearchTest.specialTest()[pri:0, instance:cn.Wolf.testScripts.FrontSearchTest@476374f1]">specialTest</td> 
+  <td>main@594362334</td>   <td></td> </tr>
+</table>

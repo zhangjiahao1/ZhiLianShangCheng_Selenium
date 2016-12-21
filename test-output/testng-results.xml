@@ -1,25 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="17498" started-at="2016-11-09T02:51:50Z" finished-at="2016-11-09T02:52:07Z">
+  <suite name="Default suite" duration-ms="60589" started-at="2016-12-21T00:32:47Z" finished-at="2016-12-21T00:33:48Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="17498" started-at="2016-11-09T02:51:50Z" finished-at="2016-11-09T02:52:07Z">
-      <class name="cn.Wolf.testScripts.LoginTest">
-        <test-method status="PASS" signature="doBeforeMethod()[pri:0, instance:cn.Wolf.testScripts.LoginTest@1c53fd30]" name="doBeforeMethod" is-config="true" duration-ms="5164" started-at="2016-11-09T10:51:50Z" finished-at="2016-11-09T10:51:55Z">
+    <test name="Default test" duration-ms="60589" started-at="2016-12-21T00:32:47Z" finished-at="2016-12-21T00:33:48Z">
+      <class name="cn.Wolf.testScripts.FrontMyOrderTest">
+        <test-method status="PASS" signature="doBeforeMethod()[pri:0, instance:cn.Wolf.testScripts.FrontMyOrderTest@58d91c60]" name="doBeforeMethod" is-config="true" duration-ms="5288" started-at="2016-12-21T08:32:47Z" finished-at="2016-12-21T08:32:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doBeforeMethod -->
-        <test-method status="PASS" signature="backTest()[pri:0, instance:cn.Wolf.testScripts.LoginTest@1c53fd30]" name="backTest" duration-ms="11964" started-at="2016-11-09T10:51:55Z" finished-at="2016-11-09T10:52:07Z">
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:cn.Wolf.testScripts.FrontMyOrderTest@58d91c60]" name="loginTest" duration-ms="13096" started-at="2016-12-21T08:32:52Z" finished-at="2016-12-21T08:33:06Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- backTest -->
-        <test-method status="PASS" signature="doAfterMethod()[pri:0, instance:cn.Wolf.testScripts.LoginTest@1c53fd30]" name="doAfterMethod" is-config="true" duration-ms="358" started-at="2016-11-09T10:52:07Z" finished-at="2016-11-09T10:52:07Z">
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="shopTest()[pri:1, instance:cn.Wolf.testScripts.FrontMyOrderTest@58d91c60]" name="shopTest" duration-ms="27214" started-at="2016-12-21T08:33:06Z" finished-at="2016-12-21T08:33:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shopTest -->
+        <test-method status="PASS" signature="detailTest()[pri:2, instance:cn.Wolf.testScripts.FrontMyOrderTest@58d91c60]" name="detailTest" duration-ms="7002" started-at="2016-12-21T08:33:33Z" finished-at="2016-12-21T08:33:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detailTest -->
+        <test-method status="PASS" signature="deleteTest()[pri:3, instance:cn.Wolf.testScripts.FrontMyOrderTest@58d91c60]" name="deleteTest" duration-ms="6882" started-at="2016-12-21T08:33:40Z" finished-at="2016-12-21T08:33:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteTest -->
+        <test-method status="PASS" signature="doAfterMethod()[pri:0, instance:cn.Wolf.testScripts.FrontMyOrderTest@58d91c60]" name="doAfterMethod" is-config="true" duration-ms="1078" started-at="2016-12-21T08:33:47Z" finished-at="2016-12-21T08:33:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doAfterMethod -->
-      </class> <!-- cn.Wolf.testScripts.LoginTest -->
+      </class> <!-- cn.Wolf.testScripts.FrontMyOrderTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

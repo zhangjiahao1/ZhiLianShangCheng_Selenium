@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="77209" started-at="2016-11-17T08:49:29Z" finished-at="2016-11-17T08:50:46Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="77209" started-at="2016-11-17T08:49:29Z" finished-at="2016-11-17T08:50:46Z">
+      <class name="cn.Wolf.testScripts.Shopcar">
+        <test-method status="PASS" signature="doBeforeMethod()[pri:0, instance:cn.Wolf.testScripts.Shopcar@69d5ee81]" name="doBeforeMethod" is-config="true" duration-ms="7331" started-at="2016-11-17T16:49:29Z" finished-at="2016-11-17T16:49:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBeforeMethod -->
+        <test-method status="PASS" signature="Shopcar()[pri:0, instance:cn.Wolf.testScripts.Shopcar@69d5ee81]" name="Shopcar" is-config="true" duration-ms="11692" started-at="2016-11-17T16:49:36Z" finished-at="2016-11-17T16:49:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Shopcar -->
+        <test-method status="PASS" signature="ShopcarAddnum()[pri:0, instance:cn.Wolf.testScripts.Shopcar@69d5ee81]" name="ShopcarAddnum" duration-ms="6942" started-at="2016-11-17T16:49:48Z" finished-at="2016-11-17T16:49:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ShopcarAddnum -->
+        <test-method status="PASS" signature="Shopcar()[pri:0, instance:cn.Wolf.testScripts.Shopcar@69d5ee81]" name="Shopcar" is-config="true" duration-ms="4717" started-at="2016-11-17T16:49:55Z" finished-at="2016-11-17T16:49:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Shopcar -->
+        <test-method status="PASS" signature="ShopcarChoose()[pri:0, instance:cn.Wolf.testScripts.Shopcar@69d5ee81]" name="ShopcarChoose" duration-ms="1358" started-at="2016-11-17T16:49:59Z" finished-at="2016-11-17T16:50:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ShopcarChoose -->
+        <test-method status="PASS" signature="Shopcar()[pri:0, instance:cn.Wolf.testScripts.Shopcar@69d5ee81]" name="Shopcar" is-config="true" duration-ms="4977" started-at="2016-11-17T16:50:01Z" finished-at="2016-11-17T16:50:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Shopcar -->
+        <test-method status="PASS" signature="ShopcarColour()[pri:0, instance:cn.Wolf.testScripts.Shopcar@69d5ee81]" name="ShopcarColour" duration-ms="7099" started-at="2016-11-17T16:50:06Z" finished-at="2016-11-17T16:50:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ShopcarColour -->
+        <test-method status="PASS" signature="Shopcar()[pri:0, instance:cn.Wolf.testScripts.Shopcar@69d5ee81]" name="Shopcar" is-config="true" duration-ms="4810" started-at="2016-11-17T16:50:13Z" finished-at="2016-11-17T16:50:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Shopcar -->
+        <test-method status="PASS" signature="ShopcarCut()[pri:0, instance:cn.Wolf.testScripts.Shopcar@69d5ee81]" name="ShopcarCut" duration-ms="2279" started-at="2016-11-17T16:50:18Z" finished-at="2016-11-17T16:50:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ShopcarCut -->
+        <test-method status="PASS" signature="Shopcar()[pri:0, instance:cn.Wolf.testScripts.Shopcar@69d5ee81]" name="Shopcar" is-config="true" duration-ms="4764" started-at="2016-11-17T16:50:20Z" finished-at="2016-11-17T16:50:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Shopcar -->
+        <test-method status="PASS" signature="ShopcarInputnum()[pri:0, instance:cn.Wolf.testScripts.Shopcar@69d5ee81]" name="ShopcarInputnum" duration-ms="1300" started-at="2016-11-17T16:50:25Z" finished-at="2016-11-17T16:50:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ShopcarInputnum -->
+        <test-method status="PASS" signature="Shopcar()[pri:0, instance:cn.Wolf.testScripts.Shopcar@69d5ee81]" name="Shopcar" is-config="true" duration-ms="4628" started-at="2016-11-17T16:50:26Z" finished-at="2016-11-17T16:50:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Shopcar -->
+        <test-method status="PASS" signature="ShopcarSize()[pri:0, instance:cn.Wolf.testScripts.Shopcar@69d5ee81]" name="ShopcarSize" duration-ms="7076" started-at="2016-11-17T16:50:31Z" finished-at="2016-11-17T16:50:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ShopcarSize -->
+        <test-method status="PASS" signature="Shopcar()[pri:0, instance:cn.Wolf.testScripts.Shopcar@69d5ee81]" name="Shopcar" is-config="true" duration-ms="4719" started-at="2016-11-17T16:50:38Z" finished-at="2016-11-17T16:50:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Shopcar -->
+        <test-method status="PASS" signature="Shopcarbalance()[pri:0, instance:cn.Wolf.testScripts.Shopcar@69d5ee81]" name="Shopcarbalance" duration-ms="2488" started-at="2016-11-17T16:50:42Z" finished-at="2016-11-17T16:50:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Shopcarbalance -->
+        <test-method status="PASS" signature="doAfterMethod()[pri:0, instance:cn.Wolf.testScripts.Shopcar@69d5ee81]" name="doAfterMethod" is-config="true" duration-ms="982" started-at="2016-11-17T16:50:45Z" finished-at="2016-11-17T16:50:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterMethod -->
+      </class> <!-- cn.Wolf.testScripts.Shopcar -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
