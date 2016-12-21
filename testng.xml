@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<!-- 前台测试用例 -->
+	<test name="登录模块|注册模块"> <!--张佳浩 -->
+		<classes>
+			<class name="cn.Wolf.testScripts.LoginTest"></class>
+			<class name="cn.Wolf.testScripts.RegisterTest"></class>
+		</classes>
+	</test>
+
+	<test name="个人信息|收获地址"> <!--杨晨 -->
+		<classes>
+			<class name="cn.Wolf.testScripts.FrontPersonalInformationTest"></class>
+			<class name="cn.Wolf.testScripts.FrontReceiptAddressTest"></class>
+		</classes>
+	</test>
+
+	<test name="购物车模块用例"> <!--吕晓锋 -->
+		<classes>
+			<class name="cn.Wolf.testScripts.Shopcar"></class>
+		</classes>
+	</test>
+
+	<test name="搜索模块用例|我的订单模块用例"> <!--杨帆 -->
+		<classes>
+			<class name="cn.Wolf.testScripts.FrontSearchTest"></class>
+			<class name="cn.Wolf.testScripts.FrontMyOrderTest"></class>
+		</classes>
+	</test>
+
+	<test name="评价售后模块用例"> <!--曹硕 -->
+		<classes>
+			<class name="cn.Wolf.testScripts.EvaluateTest"></class>
+		</classes>
+	</test>
+
+	<test name="前台结算模块用例"> <!--刘子正 -->
+		<classes>
+			<class name="cn.Wolf.testScripts.FrontBalanceTest"></class>
+		</classes>
+	</test>
+	
+	<!-- 后台测试用例 -->
+	<test name="员工管理"> <!--张佳浩 -->
+		<classes>
+			<class name="cn.Wolf.testScripts.EmployeeTest"></class>
+		</classes>
+	</test>
+
+	<test name="公告列表|消息列表|展示图列|表商城信息"> <!--杨晨 -->
+		<classes>
+			<class name="cn.Wolf.testScripts.BackAnnouncementTest"></class>
+			<class name="cn.Wolf.testScripts.BackMessageTest"></class>
+			<class name="cn.Wolf.testScripts.BackPresentationDiagramTest"></class>
+			<class name="cn.Wolf.testScripts.BackMallTest"></class>
+		</classes>
+	</test>
+
+	<test name="商品管理"> <!--吕晓锋 -->
+		<classes>
+			<class name="cn.Wolf.testScripts.Mdse"></class>
+		</classes>
+	</test>
+
+	<test name="订单管理|评价管理"> <!--杨帆 -->
+		<classes>
+			<class name="cn.Wolf.testScripts.BackOrderTest"></class>
+			<class name="cn.Wolf.testScripts.BackCommentTest"></class>
+		</classes>
+	</test>
+
+	<test name="权限管理"> <!--曹硕 -->
+		<classes>
+			<class name="cn.Wolf.testScripts.BackAuthorityTest"></class>
+		</classes>
+	</test>
+
+	<test name="友情链接"> <!--刘子正 -->
+		<classes>
+			<class name="cn.Wolf.testScripts.BackfriendHtml"></class>
+		</classes>
+	</test>
+
+</suite> 	
+ 
+
+
+
+
