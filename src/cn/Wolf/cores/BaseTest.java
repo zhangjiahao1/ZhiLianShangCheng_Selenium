@@ -22,43 +22,44 @@ import cn.Wolf.utils.Log;
 
 public class BaseTest {
 
-	//�����ǻ��࣬����������װ������
-	public  Checker check;//ǰ̨����������
-	public Checker check2;//��̨����������
-	public RobotExp robot;//����������
-	private WebDriver driver;//����һ��WebDriver
-	public String driverType;//����һ��driver���ͣ���������������Ǽ����Բ���
-	public static WebDriverEngine front;//����������(ǰ̨)
-	public static WebDriverEngine2 back;//����������(��̨)
-	public WebDriverEngine pageObject;//ҳ��Ԫ��������
+	
+	public Checker check;//前台检查点
+	public Checker check2;//后台检查点
+	public WaitUtil wait;//智能等待
+	public RobotExp robot;
+	private WebDriver driver;
+	public String driverType;
+	public static WebDriverEngine front;//前台驱动
+	public static WebDriverEngine2 back;//后台驱动
+	public WebDriverEngine pageObject;
 	public static Properties conf = null;
 	public final static String DATA_ROOT = "data";
 	public final static String CONF_PATH = "conf/config.properties";
 	
 	/**
-	 * �����������
+	 * 判断driver的类型（火狐、谷歌、IE）
 	 * @param driverType
 	 * @return
 	 */
 	private WebDriver newWebDriver(String driverType) {
 		WebDriver driver = null;
 		if (driverType.equalsIgnoreCase("firefox")) {
-			String firefox_path = getCfgProperty("firefox_path");//������û����Ĭ��·�����Ǿ�������д��
+			String firefox_path = getCfgProperty("firefox_path");
 			System.setProperty("webdriver.firefox.bin", firefox_path);
 			driver = new FirefoxDriver();
-			Log.info("Using Firefox");//ʹ�õ��ǻ�������
+			Log.info("Using Firefox");
 		}else if (driverType.equalsIgnoreCase("ie")) {
 			String ie_path = getCfgProperty("chrome_path");
 			System.setProperty("webdriver.ie.driver",ie_path);
 			DesiredCapabilities ieCapabilities = DesiredCapabilities.internetExplorer();
 			ieCapabilities.setCapability(InternetExplorerDriver.INTRODUCE_FLAKINESS_BY_IGNORING_SECURITY_DOMAINS,true);
 			driver = new InternetExplorerDriver(ieCapabilities);
-			Log.info("Using IE");//ʹ�õ���IE�����
+			Log.info("Using IE");
 		}else if (driverType.equalsIgnoreCase("chrome")) {
 			String chrome_path = getCfgProperty("chrome_path");
 			System.setProperty("webdriver.chrome.driver",chrome_path);
 			driver = new ChromeDriver();
-			Log.info("Using Chrome");//ʹ�õ��ǹȸ������
+			Log.info("Using Chrome");
 		}else{
 			return null;
 	}
@@ -89,7 +90,7 @@ public class BaseTest {
 
 	
 	/**
-	 * ���ں���
+	 * 返回日期
 	 * @return
 	 */
 	public String getDate(){
@@ -100,7 +101,7 @@ public class BaseTest {
 	
 	
 	/**
-	 * ����
+	 * 截屏
 	 */
 	public void screenShot() {
 

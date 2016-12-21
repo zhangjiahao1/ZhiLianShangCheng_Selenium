@@ -22,11 +22,11 @@ public class RobotExp {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		robot.keyPress(KeyEvent.VK_CONTROL);// ����Control
+		robot.keyPress(KeyEvent.VK_CONTROL);
 		robot.keyPress(KeyEvent.VK_V);
 
 		robot.keyRelease(KeyEvent.VK_V);
-		robot.keyRelease(KeyEvent.VK_CONTROL);// �ͷ�Control
+		robot.keyRelease(KeyEvent.VK_CONTROL);
 
 	}
 

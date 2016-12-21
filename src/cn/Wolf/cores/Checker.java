@@ -111,6 +111,7 @@ public class Checker {
 		actualValue = webtest.getTitle();
 		verify(patten, actualValue);
 	}
+	
 	public void verifyValue(String locator, String patten) throws Exception {
 		// TODO Auto-generated method stub
 		actualValue = webtest.getValue(locator);

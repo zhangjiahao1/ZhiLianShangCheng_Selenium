@@ -16,10 +16,64 @@ public class WebDriverEngine {
 
 	WebDriver driver = null;
 	ElementFinder finder = null;
-
 	
 	/**
-	 * ����driver,�������������
+	 * 退出
+	 */
+	public void exit(){
+		this.driver = driver;
+		driver.quit();
+	}
+	
+	/**
+	 * 鼠标悬浮
+	 * @param locator
+	 * @throws InterruptedException
+	 */
+	public void mouseoverElement(String locator) throws InterruptedException {
+		Actions action = new Actions(driver);
+		action.moveToElement(finder.findElement(locator)).perform();
+	}
+		
+		
+	/**
+	 * 选择窗口
+	 * @param i
+	 */
+	public void switchWidow(int i){
+	    List<String> windows = new ArrayList<String>();
+	    for (String handle : driver.getWindowHandles()) {
+	    
+	    	windows.add(handle);
+	    }
+	    driver.switchTo().window(windows.get(i));
+	}
+	
+	
+	/**
+	 * 右键
+	 * @param locator
+	 * @throws InterruptedException
+	 */
+	public void rightClickMouse(String locator) throws InterruptedException {
+		Actions action = new Actions(driver);
+		action.contextClick(finder.findElement(locator)).perform();
+		}
+   
+	
+	/**
+	 * 上传文件
+	 * @param locator
+	 * @param path
+	 */
+	public void send(String locator, String path){
+		WebElement element = finder.findElement(locator);
+		element.sendKeys(path);
+	}
+	
+	
+	/**
+	 * 得到本类的驱动
 	 * @return
 	 */
 	public WebDriver getDriver(){
@@ -28,7 +82,7 @@ public class WebDriverEngine {
 	
 	
 	/**
-	 * ���ݾ���л�windows����
+	 * 得到窗口的Titles
 	 * @return
 	 */
 	public String[] getAllWindowTitles() {
@@ -48,7 +102,7 @@ public class WebDriverEngine {
 	
 	
 	/**
-	 * ���췽������������Ĵ������
+	 * 将窗口放大
 	 * @param driver
 	 */
 	public WebDriverEngine(WebDriver driver) {
@@ -59,7 +113,7 @@ public class WebDriverEngine {
 	
 
 	/**
-	 * ����Frame
+	 * 进入Frame页面
 	 * @param frameID
 	 */
 	public void enterFrame(String frameID) {
@@ -70,7 +124,7 @@ public class WebDriverEngine {
 	
 	
 	/**
-	 * �뿪Frame
+	 * 离开Frame页面
 	 */
 	public void leaveFrame() {
 		driver.switchTo().defaultContent();
@@ -79,7 +133,7 @@ public class WebDriverEngine {
 	
 	
 	/**
-	 * ��һ����ַ
+	 * 打开一个页面
 	 * @param url
 	 */
 	public void open(String url) {
@@ -96,7 +150,7 @@ public class WebDriverEngine {
 	
 	
 	/**
-	 * �õ����⣨Title��
+	 * 得到Title
 	 * @return
 	 */
 	public String getTitle() {
@@ -105,7 +159,7 @@ public class WebDriverEngine {
 	
 	
 	/**
-	 * ��ͣ�ȴ�
+	 * 暂停
 	 * @param time
 	 */
 	private void pause(int time) {
@@ -121,7 +175,7 @@ public class WebDriverEngine {
 
 	
 	/**
-	 * �õ�ҳ���ĳЩ���ݣ�������Assertһ���ã�
+	 * 验证源码中是否有该有的文字
 	 * @param pattern
 	 * @return
 	 */
@@ -137,7 +191,7 @@ public class WebDriverEngine {
 
 	
 	/**
-	 * ������������ݲ�����ֵ
+	 * 清空&键入文字
 	 * @param locator
 	 * @param value
 	 */
@@ -152,7 +206,7 @@ public class WebDriverEngine {
 
 	
 	/**
-	 * �������������ֵ
+	 * 键入文字
 	 * @param locator
 	 * @param value
 	 */
@@ -165,7 +219,7 @@ public class WebDriverEngine {
 
 	
 	/**
-	 * �жϽڵ��Ƿ��Ѿ���ѡ�У����ѡ�У�����True�����򷵻�False
+	 * 判断是否已经被选中
 	 * @param locator
 	 * @return
 	 */
@@ -176,7 +230,7 @@ public class WebDriverEngine {
 
 	
 	/**
-	 * �������ͣ2��
+	 * 点击操作
 	 * @param locator
 	 */
 	public void click(String locator) {
@@ -190,7 +244,7 @@ public class WebDriverEngine {
 
 	
 	/**
-	 * 
+	 * 按住左键
 	 * @param locator
 	 */
 	public void clickLonger(String locator) {
@@ -205,7 +259,7 @@ public class WebDriverEngine {
 
 	
 	/**
-	 * ˫��
+	 * 双击
 	 * @param locator
 	 * @throws InterruptedException
 	 */
@@ -230,7 +284,7 @@ public class WebDriverEngine {
 
 	
 	/**
-	 * 
+	 * 得到文本信息
 	 * @param locator
 	 * @return
 	 */
@@ -238,7 +292,13 @@ public class WebDriverEngine {
 
 		return finder.findElement(locator).getText().trim();
 	}
-
+	
+	
+	/**
+	 * 
+	 * @param locator
+	 * @return
+	 */
 	public boolean isElementPresent(String locator) {
 
 		WebElement element = null;
@@ -255,7 +315,13 @@ public class WebDriverEngine {
 			return false;
 		}
 	}
-
+	
+	
+	/**
+	 * 得到属性值
+	 * @param locator
+	 * @return
+	 */
 	public String getValue(String locator) {
 
 		return finder.findElement(locator).getAttribute("value");
@@ -263,7 +329,7 @@ public class WebDriverEngine {
 	
 	
 	/**
-	 * ���URL
+	 * 得到URL
 	 * @return
 	 */
 	public String getUrl() {
@@ -272,7 +338,7 @@ public class WebDriverEngine {
 
 	
 	/**
-	 * ����
+	 * 后退
 	 */
 	public void goBack() {
 		driver.navigate().back();
@@ -280,7 +346,7 @@ public class WebDriverEngine {
 	
 	
 	/**
-	 **ǰ��
+	 * 前进
 	 */
 	public void goForward() {
 
@@ -289,7 +355,7 @@ public class WebDriverEngine {
 
 	
 	/**
-	 * �������ѿ�
+	 * 接受Alert
 	 * @return
 	 */
 	public Alert getAlert() {
@@ -299,7 +365,7 @@ public class WebDriverEngine {
 
 	
 	/**
-	 * �õ������б�
+	 * 得到下拉列表
 	 * @param locator
 	 * @return
 	 */
@@ -310,7 +376,7 @@ public class WebDriverEngine {
 
 	
 	/**
-	 * ͨ��Valueѡ��
+	 * 通过Value值来选择
 	 * @param locator
 	 * @param value
 	 */
@@ -321,7 +387,7 @@ public class WebDriverEngine {
 
 	
 	/**
-	 * ͨ��VisibleTextѡ��
+	 * 通过Text值来选择
 	 * @param locator
 	 * @param value
 	 */
@@ -331,7 +397,7 @@ public class WebDriverEngine {
 
 	
 	/**
-	 * ͨ��Indexѡ��
+	 * 通过Index值来选择
 	 * @param locator
 	 * @param index
 	 */
@@ -351,7 +417,7 @@ public class WebDriverEngine {
 
 	
 	/**
-	 * �������ѿ�
+	 * 接受Alert框
 	 */
 	public void alertAccept() {
 
@@ -365,7 +431,7 @@ public class WebDriverEngine {
 
 	
 	/**
-	 * ִ��JS���
+	 * run JS
 	 * @param js
 	 */
 	public void runJs(String js) {
@@ -375,7 +441,7 @@ public class WebDriverEngine {
 
 	
 	/**
-	 * ����Enter��
+	 * 按下Enter键
 	 */
 	public void keyDown() {
 		Actions action = new Actions(driver);
